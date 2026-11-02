@@ -1,0 +1,29 @@
+check,model_median,reference,reference_source,note
+2026 raw demand-side sum vs supply total (%),-0.393,"(-2.0, -1.0)",TrendForce 2026-07-30 sufficiency ratio,Positive = the units x content build-up exceeds supply.
+2026 total vs Mirae demand: sufficiency (%),-4.292,"(-2.0, -1.0)",TrendForce 2026-07-30,Mirae demand predates the 2026 price shock.
+2026 HBM + server ECC share of bits (%),52.338,51.0,TrendForce 2026-08-25 (HBM + RDIMM),
+2026 server order fill rate (%),66.0,<60 (4Q25: <60),Samsung Securities 2026-01-28,Fill rates of <60% (4Q25) and 66% (1Q26) show a real server shortage that the Mirae demand base (server sufficiency ~0%) does not capture.
+2027 growth of the ALR remainder (%),10.811,,derived,Share of draws where the remainder hit zero: 0.00%
+2026 server ECC per server (GB),847.428,903.0,Mirae Dec 2025 content plan,Our units = Mirae 2025 units x latest growth.
+2026 server bits vs KGI (bn Gb),181.145,165.92,KGI 2025-11-17 (20.74 bn GB),KGI is the high case; it includes general-server buying.
+"2026 phones only, IDC units x TrendForce GB (bn Gb)",71.981,94.46111520192129,model phone+tablet line,Mirae's mobile basis holds about 30-40% more bits than phones alone.
+2026 phone+tablet vs Yole mobile (EB),11.808,11.0,Yole via Comet 2025-11-13 (pre-shock),
+2026 HBM: accelerator bottom-up coverage (%),59.656,60-70,"hbm-gddr notes (Morgan Stanley, UBS, TrendForce)",
+2026 server LPDDR vs Meritz (bn Gb),23.26,24.0,Meritz 2026-05-22,
+2026 PC LPDDR vs Mac floor (EB),1.067,0.41,IDC Mac units x 16 GB (lpddr.csv),
+2026 total (EB) vs Yole demand,45.437,43.0,Yole via Comet 2025-11-13,
+2026 implied node gain n26 (%),14.196,most 2026 growth from node migration,TrendForce News citing Chosun Biz (1c share rows),
+2025 implied node gain n25 (%),10.877,,derived,
+2027 server ECC growth (%),18.23,"(15.0, 20.0)",TrendForce 2026-07-09 RDIMM bit supply,
+2027 server ECC + HBM growth (%),25.673,27.0,TrendForce 2026-08-25,
+2027 HBM growth (%),60.763,"(50.0, 60.0)",TrendForce 2026-08-04,
+2027 HBM bits (bn Gb),52.217,58.0,UBS 2026-05-13 end demand,
+2027 HBM share of bits (%),11.686,13.0,TrendForce 2026-06-02,
+2027 HBM trade ratio r27 (x),3.67,2.868,TrendForce-implied from 30% wafers / 13% bits (2026-06-02),TrendForce's ratio is vs the all-DRAM average.
+2027 HBM sufficiency (%),-9.944,-6.0,Goldman Sachs 2026-06-01,
+2027 HBM: TPU + Trainium3 bottom-up (bn Gb),23.124,52.216848194659235,model HBM,"Nvidia and AMD 2027 units are not in the sources, so this covers ASICs only."
+2027 server LPDDR supply = 60% of need (bn Gb),40.354,43.603199999999994,Meritz need x TrendForce 60% fill,
+"2027 server ECC per server (GB, Mirae units)",1060.872,1065.0,Mirae Dec 2025,
+2027 total (EB) vs Yole demand,55.8,51.0,Yole via Comet 2025-11-13,
+2026 DDR4 module share of total bits (%),3.22,7.000000000000001,TrendForce 2026-05-26 (Micron only),Micron's DDR4 share; CXMT and Nanya hold more DDR4.
+1Q26 implied QoQ vs 4Q25 (%),-8.836,,derived,Solved residual; no source gives 1Q26.

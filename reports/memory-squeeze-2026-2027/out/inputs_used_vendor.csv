@@ -1,0 +1,84 @@
+file,row,segment,metric,period,value,unit,kind,publisher,pub_date,url
+hbm-gddr.csv,36,hbm,bit_share_by_vendor,2027,SKH ~40 / Samsung ~40 / Micron ~20,%,forecast,UBS (via Investing.com),2026-05-13,https://www.investing.com/news/stock-market-news/ubs-says-samsung-to-reach-market-share-parity-for-hbm-with-sk-hynix-by-2027-4684487
+hbm-gddr.csv,231,hbm,bit_share_SKH/Samsung,2027,39/41,%,forecast,UBS (via Seoul Economic Daily),2026-08-10,https://en.sedaily.com/finance/2026/08/10/samsung-hits-80-percent-yield-on-hbm4-speeds-up-hbm4e
+hbm-gddr.csv,232,hbm-skhynix,bit_share,2026,48,%,forecast,UBS (via Seoul Economic Daily),2026-08-10,https://en.sedaily.com/finance/2026/08/10/samsung-hits-80-percent-yield-on-hbm4-speeds-up-hbm4e
+total-dram.csv,197,total,bit production,2025,293.1,billion Gb,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,198,total,bit production,2026,352.5,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,199,total,bit production,2027,415.7,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,202,total,Samsung bit production,2025,111.1,billion Gb,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,203,total,Samsung bit production,2026,122.0,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,204,total,Samsung bit production,2027,143.2,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,207,total,SK hynix bit production,2025,84.7,billion Gb,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,208,total,SK hynix bit production,2026,105.2,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,209,total,SK hynix bit production,2027,125.1,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,212,total,Micron bit production,2025,55.8,billion Gb,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,213,total,Micron bit production,2026,63.7,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,214,total,Micron bit production,2027,74.5,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,217,total,CXMT bit production,2025,23.3,billion Gb,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,218,total,CXMT bit production,2026,29.5,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,219,total,CXMT bit production,2027,36.0,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,223,total,Nanya bit production,2026,4.3,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,508,total,Samsung DRAM bit shipments,2025Q1,20.5,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,509,total,Samsung DRAM bit shipments,2025Q2,22.8,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,510,total,Samsung DRAM bit shipments,2025Q3,26.2,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,511,total,Samsung DRAM bit shipments,2025Q4,29.2,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,512,total,Samsung DRAM bit shipments,2026Q1,31.5,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,513,total,Samsung DRAM bit shipments,2026Q2,33.4,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,514,total,Samsung DRAM bit shipments,2026Q3,34.9,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,515,total,Samsung DRAM bit shipments,2026Q4,36.2,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,524,total,SK hynix DRAM bit shipments,2025Q1,19.5,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,525,total,SK hynix DRAM bit shipments,2025Q2,24.2,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,526,total,SK hynix DRAM bit shipments,2025Q3,26.1,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,527,total,SK hynix DRAM bit shipments,2025Q4,27.8,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,528,total,SK hynix DRAM bit shipments,2026Q1,29.1,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,529,total,SK hynix DRAM bit shipments,2026Q2,31.6,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,530,total,SK hynix DRAM bit shipments,2026Q3,31.9,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,531,total,SK hynix DRAM bit shipments,2026Q4,32.4,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+vendor-mix.csv,0,hbm,Samsung HBM market share,2026Q2,33,% of HBM revenue,estimate,Counterpoint Research (via Seoul Economic Daily),2026-09-03,https://en.sedaily.com/finance/2026/09/03/samsung-doubles-hbm-market-share-to-33-percent-narrowing
+vendor-mix.csv,1,hbm,SK hynix HBM market share,2026Q2,50,% of HBM revenue,estimate,Counterpoint Research (via Seoul Economic Daily),2026-09-03,https://en.sedaily.com/finance/2026/09/03/samsung-doubles-hbm-market-share-to-33-percent-narrowing
+vendor-mix.csv,2,hbm,Micron HBM market share,2026Q2,18,% of HBM revenue,estimate,Counterpoint Research (via Seoul Economic Daily),2026-09-03,https://en.sedaily.com/finance/2026/09/03/samsung-doubles-hbm-market-share-to-33-percent-narrowing
+vendor-mix.csv,7,hbm,Samsung HBM market share,2025,21,% of HBM shipments,estimate,Samsung Securities,2026-01-27,https://www.bondweb.co.kr/Data/20261/28/menu01/2026012820.pdf
+vendor-mix.csv,8,hbm,Samsung HBM market share,2026,26,% of HBM shipments,forecast,Samsung Securities,2026-01-27,https://www.bondweb.co.kr/Data/20261/28/menu01/2026012820.pdf
+vendor-mix.csv,9,hbm,SK hynix HBM market share,2025,58,% of HBM shipments,estimate,Samsung Securities,2026-01-27,https://www.bondweb.co.kr/Data/20261/28/menu01/2026012820.pdf
+vendor-mix.csv,10,hbm,SK hynix HBM market share,2026,52,% of HBM shipments,forecast,Samsung Securities,2026-01-27,https://www.bondweb.co.kr/Data/20261/28/menu01/2026012820.pdf
+vendor-mix.csv,11,hbm,Micron HBM market share,2025,21,% of HBM shipments,estimate,Samsung Securities,2026-01-27,https://www.bondweb.co.kr/Data/20261/28/menu01/2026012820.pdf
+vendor-mix.csv,12,hbm,Micron HBM market share,2026,22,% of HBM shipments,forecast,Samsung Securities,2026-01-27,https://www.bondweb.co.kr/Data/20261/28/menu01/2026012820.pdf
+vendor-mix.csv,14,hbm,Samsung HBM market share,2025,22,% of HBM shipments,estimate,Daishin Securities,2026-02-25,https://stock.mk.co.kr/uploads/20260225/1771985434_3b4da2366163be8020e7.pdf
+vendor-mix.csv,15,hbm,Samsung HBM market share,2026,29,% of HBM shipments,forecast,Daishin Securities,2026-02-25,https://stock.mk.co.kr/uploads/20260225/1771985434_3b4da2366163be8020e7.pdf
+vendor-mix.csv,16,hbm,Samsung HBM market share,2027,39,% of HBM shipments,forecast,Daishin Securities,2026-02-25,https://stock.mk.co.kr/uploads/20260225/1771985434_3b4da2366163be8020e7.pdf
+vendor-mix.csv,17,hbm,SK hynix HBM market share,2025,57,% of HBM shipments,estimate,Daishin Securities,2026-02-25,https://stock.mk.co.kr/uploads/20260225/1771985434_3b4da2366163be8020e7.pdf
+vendor-mix.csv,18,hbm,SK hynix HBM market share,2026,49,% of HBM shipments,forecast,Daishin Securities,2026-02-25,https://stock.mk.co.kr/uploads/20260225/1771985434_3b4da2366163be8020e7.pdf
+vendor-mix.csv,19,hbm,SK hynix HBM market share,2027,39,% of HBM shipments,forecast,Daishin Securities,2026-02-25,https://stock.mk.co.kr/uploads/20260225/1771985434_3b4da2366163be8020e7.pdf
+vendor-mix.csv,20,hbm,Micron HBM market share,2025,21,% of HBM shipments,estimate,Daishin Securities,2026-02-25,https://stock.mk.co.kr/uploads/20260225/1771985434_3b4da2366163be8020e7.pdf
+vendor-mix.csv,21,hbm,Micron HBM market share,2026,19,% of HBM shipments,forecast,Daishin Securities,2026-02-25,https://stock.mk.co.kr/uploads/20260225/1771985434_3b4da2366163be8020e7.pdf
+vendor-mix.csv,22,hbm,Micron HBM market share,2027,18,% of HBM shipments,forecast,Daishin Securities,2026-02-25,https://stock.mk.co.kr/uploads/20260225/1771985434_3b4da2366163be8020e7.pdf
+vendor-mix.csv,24,hbm,Samsung HBM market share,2026,30,% of HBM market,forecast,Citi (via NeoTeo),2026-10-02,https://www.neoteo.com/en/citi-forecasts-a-severe-memory-chip-shortage-in-2027
+vendor-mix.csv,25,hbm,Samsung HBM market share,2027,42,% of HBM market,forecast,Citi (via NeoTeo),2026-10-02,https://www.neoteo.com/en/citi-forecasts-a-severe-memory-chip-shortage-in-2027
+vendor-mix.csv,26,hbm,SK hynix HBM market share,2027,35,% of HBM market,forecast,Citi (via NeoTeo),2026-10-02,https://www.neoteo.com/en/citi-forecasts-a-severe-memory-chip-shortage-in-2027
+vendor-mix.csv,27,hbm,Micron HBM market share,2027,22,% of HBM market,forecast,Citi (via NeoTeo),2026-10-02,https://www.neoteo.com/en/citi-forecasts-a-severe-memory-chip-shortage-in-2027
+vendor-mix.csv,28,hbm,SK hynix HBM market share,2026,46,% of HBM market,forecast,"VLSI Korea (citing ChosunBiz, Counterpoint, JPMorgan, UBS, Bernstein)",2026-10-25,https://www.vlsi.kr/en/bernstein-hbm-crossover-en/
+vendor-mix.csv,29,hbm,SK hynix HBM market share,2027,41,% of HBM market,forecast,"VLSI Korea (citing ChosunBiz, Counterpoint, JPMorgan, UBS, Bernstein)",2026-10-25,https://www.vlsi.kr/en/bernstein-hbm-crossover-en/
+vendor-mix.csv,30,hbm,Samsung HBM market share,2027,41,% of HBM bit shipments,forecast,"VLSI Korea (citing ChosunBiz, Counterpoint, JPMorgan, UBS, Bernstein)",2026-10-25,https://www.vlsi.kr/en/bernstein-hbm-crossover-en/
+vendor-mix.csv,32,hbm,Samsung HBM share vs its DRAM share,2026Q3,in line,qualitative,actual,Samsung Electronics (transcript via StockAnalysis/Quartr),2026-10-29,https://stockanalysis.com/quote/krx/005930/transcripts/718820-q3-2026/
+vendor-mix.csv,34,hbm,CXMT share of global HBM wafer supply,2025,1,% of HBM wafers,estimate,SemiAnalysis,2026-06-23,https://newsletter.semianalysis.com/p/chinas-cxmt-is-set-to-challenge-dram
+vendor-mix.csv,90,pc,SK hynix PC share of own DRAM revenue,2026Q3,9.8,% of vendor DRAM revenue,derived,SK hynix,2026-10-28,https://irsvc.teletogether.com/hynix/pdf/hynix2026Q3_eng.pdf
+vendor-mix.csv,91,server,SK hynix Server share of own DRAM revenue,2026Q3,55.8,% of vendor DRAM revenue,derived,SK hynix,2026-10-28,https://irsvc.teletogether.com/hynix/pdf/hynix2026Q3_eng.pdf
+vendor-mix.csv,92,graphics-gddr,SK hynix Graphics (incl. HBM) share of own DRAM revenue,2026Q3,15.7,% of vendor DRAM revenue,derived,SK hynix,2026-10-28,https://irsvc.teletogether.com/hynix/pdf/hynix2026Q3_eng.pdf
+vendor-mix.csv,93,all,SK hynix Consumer share of own DRAM revenue,2026Q3,5.3,% of vendor DRAM revenue,derived,SK hynix,2026-10-28,https://irsvc.teletogether.com/hynix/pdf/hynix2026Q3_eng.pdf
+vendor-mix.csv,94,mobile-lpddr,SK hynix Mobile share of own DRAM revenue,2026Q3,13.5,% of vendor DRAM revenue,derived,SK hynix,2026-10-28,https://irsvc.teletogether.com/hynix/pdf/hynix2026Q3_eng.pdf
+vendor-mix.csv,99,server,Samsung server share of own DRAM bits,2026Q2,~50,% of vendor DRAM bits,estimate,Goldman Sachs (via Yonhap; search summary only),2026-08-03,https://www.yna.co.kr/amp/view/AKR20260803112800008
+vendor-mix.csv,125,server,Micron data-center DRAM share of own DRAM revenue,FQ4-2026,~61,% of vendor DRAM revenue,derived,Micron,2026-09-30,https://s25.q4cdn.com/621799436/files/doc_financials/2026/q4/Q4-FY26-Prepared-Remarks.pdf
+vendor-mix.csv,131,lpddr-server,Samsung SOCAMM2 share,2026-2027,35,% of SoCAMM2 market,forecast,Korea Investment & Securities,2025-10-27,https://www.simmtech.com/upload/media/file/638972081688174181.pdf
+vendor-mix.csv,132,lpddr-server,SK hynix SOCAMM2 share,2026-2027,40,% of SoCAMM2 market,forecast,Korea Investment & Securities,2025-10-27,https://www.simmtech.com/upload/media/file/638972081688174181.pdf
+vendor-mix.csv,134,lpddr-server,Samsung SOCAMM2 share,2026,50,% of SOCAMM2 supply,forecast,BNK Investment & Securities,2026-02-03,https://www.bondweb.co.kr/Data/20262/3/menu01/ratingBNK_886176.pdf
+vendor-mix.csv,135,lpddr-server,SK hynix SOCAMM2 share,2026,30,% of SOCAMM2 supply,forecast,BNK Investment & Securities,2026-02-03,https://www.bondweb.co.kr/Data/20262/3/menu01/ratingBNK_886176.pdf
+vendor-mix.csv,139,lpddr-server,Micron share of data center LPDRAM,FY2025,sole supplier,qualitative,actual,Micron (transcript via StockAnalysis/Quartr),2025-09-23,https://stockanalysis.com/stocks/mu/transcripts/388210-q4-2025/
+vendor-mix.csv,140,mobile-lpddr,Samsung mobile DRAM market share,2024Q1,57.9,% of mobile DRAM market,estimate,Omdia (via The Korea Times),2025-11-25,https://www.koreatimes.co.kr/amp/business/tech-science/20251125/memory-makers-race-for-ai-servers-expands-to-low-power-chips
+vendor-mix.csv,147,mobile-lpddr,CXMT LPDDR series share of main-business revenue,2025,66.43,% of vendor main-business revenue,actual,CXMT (ChangXin Technology Group),2026 (registration draft; exact date not shown),https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12358280&stockid=688825
+vendor-mix.csv,148,graphics-gddr,Samsung GDDR7 market share,2025,70,% of GDDR7 market,estimate,TrendForce (via Hankyung / Daum),2025-12-03,https://v.daum.net/v/20251203182738336
+vendor-mix.csv,149,graphics-gddr,Samsung GDDR market share,2024,41,% of GDDR market,estimate,TrendForce (via Hankyung / Daum),2025-12-03,https://v.daum.net/v/20251203182738336
+vendor-mix.csv,150,graphics-gddr,SK hynix GDDR market share,2024,49,% of GDDR market,estimate,TrendForce (via Hankyung / Daum),2025-12-03,https://v.daum.net/v/20251203182738336
+vendor-mix.csv,155,ddr4-legacy,CXMT DDR series (DDR4+DDR5) share of main-business revenue,2025,31.87,% of vendor main-business revenue,actual,CXMT (ChangXin Technology Group),2026 (registration draft; exact date not shown),https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12358280&stockid=688825
+vendor-mix.csv,156,ddr4-legacy,Industry DDR4 share of DDR market,2024,45,% of DDR market,estimate,CXMT (ChangXin Technology Group),2025-12-30,https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
+vendor-mix.csv,158,ddr4-legacy,Nanya DDR5 share of revenue,2026Q3,~10,% of vendor revenue,actual,Focus Taiwan (CNA),2026-10-12,https://focustaiwan.tw/business/202610120025
+vendor-mix.csv,159,ddr4-legacy,Nanya DDR4 + LPDDR4 share of revenue,2026Q3,>60,% of vendor revenue,actual,Nanya Technology (transcript summary via AlphaMemo),2026-10-12,https://www.alphamemo.ai/free-transcripts/ebd9291c-4bc4-4822-b8ce-06e060432bea

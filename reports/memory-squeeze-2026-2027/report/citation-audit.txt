@@ -1,0 +1,1091 @@
+====================================================================================================
+CONTEXT: …025, and the market is still short. AI servers take the new bits first. The new fabs that could end the shortage add real output only in 2028. Supply grows fast, and AI servers take it first. Our model puts 2026 output at 45.4 EB (363.5 bn Gb), up 24% on 2025.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …eal output only in 2028. Supply grows fast, and AI servers take it first. Our model puts 2026 output at 45.4 EB (363.5 bn Gb), up 24% on 2025. Micron told investors in September that industry bit shipments grow in the mid-20s percent this year.
+  [2] total-dram.csv:2 | Micron 2026-09-30 | bit shipment growth YoY | 2026 | mid-20s % | forecast
+      Q: In DRAM, for calendar 2026, we expect industry bit shipments to grow in the mid-20s percentage range.
+      N: Industry DRAM bit shipments (includes HBM); range label, approx 24-26%
+====================================================================================================
+CONTEXT: …ke it first. Our model puts 2026 output at 45.4 EB (363.5 bn Gb), up 24% on 2025. Micron told investors in September that industry bit shipments grow in the mid-20s percent this year. TrendForce estimates that HBM and server RDIMMs take 51% of the year's bits.
+  [3] server-ddr5.csv:224 | TrendForce 2026-08-25 | hbm_plus_rdimm_share_of_dram_bit_supply | 2026 | 51 % | forecast
+      Q: HBM and RDIMM combined will account for 51% of DRAM bit supply in 2026
+      N: 
+====================================================================================================
+CONTEXT: …ors in September that industry bit shipments grow in the mid-20s percent this year. TrendForce estimates that HBM and server RDIMMs take 51% of the year's bits. In the model, server ECC output rises 44% and HBM 54%, while phone LPDDR falls 7% and PC memory 6%.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …he data shows. Nvidia's Vera CPUs use LPDDR5X in SOCAMM2 modules. The model puts Nvidia's 2027 need at 8.4 EB (67.3 bn Gb) against 5.0 EB (40.4 bn Gb) of supply, a 40% gap, because TrendForce reported in June that suppliers can meet only about 60% of the need.
+  [4] lpddr.csv:129 | TrendForce 2026-06-10 | nvidia_lpdram_need_met | 2027 | 60 % of Nvidia estimated LPDRAM needs | forecast
+      Q: NVIDIA is set to receive enough LPDRAM to meet only about 60% of its estimated needs
+      N: Based on preliminary 2027 supplier allocations. Supply-constrained ceiling.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …puts Nvidia's 2027 need at 8.4 EB (67.3 bn Gb) against 5.0 EB (40.4 bn Gb) of supply, a 40% gap, because TrendForce reported in June that suppliers can meet only about 60% of the need. Nvidia halved the SOCAMM capacity on each Vera Rubin module the same month.
+  [5] lpddr.csv:177 | TrendForce 2026-06-10 | vera_socamm_capacity_cut | 2026-06 | 50 % cut in SOCAMM capacity per Vera Rubin module | actual
+      Q: has decided to halve the SOCAMM memory capacity of its next-generation Vera Rubin Superchip modules
+      N: Due to insufficient 2027 LPDRAM allocation. Meritz: 96GB module orders may rise ~6x; total SOCAMM2 demand +10-20% (search summary only).
+====================================================================================================
+CONTEXT: …e need. Nvidia halved the SOCAMM capacity on each Vera Rubin module the same month. HBM is about 10% short. Server ECC is 3% short in the model, but Samsung Securities reported that server customers received under 60% of their orders in 4Q25 and 66% in 1Q26.
+  [1] M:forecast_by_category.csv
+  [6] server-ddr5.csv:220 | Samsung Securities 2026-01-28 | order_fulfillment_rate | 1Q26 | 66 % | estimate
+      Q: the order fulfillment rate for server customers stands at 66% (vs below 60% in 4Q25)
+      N: 
+====================================================================================================
+CONTEXT: …60% of their orders in 4Q25 and 66% in 1Q26. Phones and PCs absorb the shortage through price and spec cuts. IDC expects 2026 smartphone shipments to fall 16.7% while the average phone price rises 27.6%. It expects PC shipments to fall 11.3%.
+  [7] lpddr.csv:24 | IDC 2026-08-26 | shipments_yoy_forecast | 2026 | -16.7 % YoY | forecast
+      Q: worldwide smartphone shipments will fall 16.7% in 2026 to just over 1 billion units
+      N: Latest IDC view seen. Memory prices expected to rise until at least 2028; supply to stabilize in 2028.
+  [7] lpddr.csv:182 | IDC 2026-08-26 | asp_forecast | 2026 | 581 USD per smartphone | forecast
+      Q: The average selling price of a smartphone will reach $581 in 2026, up 27.6% in a single year
+      N: Price up, units down: memory cost passed through.
+  [8] server-ddr5.csv:251 | IDC 2026-06-02 | shipments_growth_yoy | 2026 | -11.3 % | forecast
+      Q: IDC now forecasts global PC shipments will decline 11.3% for the full year
+      N: Q4 2026 seen -20% YoY.
+====================================================================================================
+CONTEXT: …es and PCs absorb the shortage through price and spec cuts. IDC expects 2026 smartphone shipments to fall 16.7% while the average phone price rises 27.6%. It expects PC shipments to fall 11.3%. Memory rose from 10–15% of a phone's bill of materials to 30–40%.
+  [9] supply-chain.csv:159 | TrendForce 2026-02-11 | smartphone memory share of BOM | 1Q26 | 30 to 40 % of BOM | estimate
+      Q: Memory, which historically accounted for around 10–15% of a smartphone's BOM, has now surged to 30–40%.
+      N: cat=lpddr
+====================================================================================================
+CONTEXT: …o fall 16.7% while the average phone price rises 27.6%. It expects PC shipments to fall 11.3%. Memory rose from 10–15% of a phone's bill of materials to 30–40%. Entry phones go back to 4 GB, and IDC describes 12 GB phones relaunching with 8 GB.
+  [10] supply-chain.csv:160 | TrendForce 2025-12-11 | low-end smartphone base RAM | 2026 | 4 GB | forecast
+      Q: The most affected will be the low-end smartphone market, where base models are likely to return to 4GB in 2026.
+      N: cat=lpddr; spec cut
+  [11] lpddr.csv:178 | IDC 2026-02-26 | oem_spec_cut | 2026 | 8 GB RAM (was 12GB) | estimate
+      Q: might have shipped with 12GB of RAM and 256GB of storage a year ago may now debut with 8GB of RAM and 128GB of storage
+      N: Illustrative spec cut at same or higher price. Low-end OEMs 'cutting specifications or shifting volume above $200'.
+====================================================================================================
+CONTEXT: …ials to 30–40%. Entry phones go back to 4 GB, and IDC describes 12 GB phones relaunching with 8 GB. The model's 14–18% phone and PC gaps are measured against demand forecast before the price spike, so most of that shortfall is demand the price rise removed.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …C gaps are measured against demand forecast before the price spike, so most of that shortfall is demand the price rise removed. No real relief before 2028. The model expects 2027 output of 55.8 EB (446.4 bn Gb), up 22.6%, with an 80% range of 402 to 496 bn Gb.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: … demand the price rise removed. No real relief before 2028. The model expects 2027 output of 55.8 EB (446.4 bn Gb), up 22.6%, with an 80% range of 402 to 496 bn Gb. Most of the growth comes from denser process nodes in existing fabs.
+  [12] M:sensitivity.csv
+====================================================================================================
+CONTEXT: …output of 55.8 EB (446.4 bn Gb), up 22.6%, with an 80% range of 402 to 496 bn Gb. Most of the growth comes from denser process nodes in existing fabs. New fabs start between early 2027 and 2028, and TrendForce expects substantial output from them only in 2028.
+  [13] total-dram.csv:495 | SK hynix 2026-07-29 | SK hynix Yongin Phase 1 cleanroom opening | 2027 early | 1 event | forecast
+      Q: following the clean room opening of the Yongin Phase 1 in early 2027
+      N: Q3 call: shell construction accelerated; cleanrooms open in phases
+  [2] total-dram.csv:8 | Micron 2026-09-30 | Micron new fab start: Idaho ID1 wafer output | 2027 mid | 1 event | forecast
+      Q: Our ID1 fab is on track to commence wafer output in mid calendar 2027.
+      N: Timing only; no wafer capacity stated
+  [14] total-dram.csv:554 | vlsi.kr (secondary) 2026-10-30 | Samsung Pyeongtaek P5 start of operations | 2028 | pulled forward 2 years event | forecast
+      Q: the Pyeongtaek P5 line for advanced memory has been pulled forward by two years, to a 2028 start of operations
+      N: PULLED IN. Secondary market bulletin; a second fab accelerated alongside it. EconoTimes (2026-10-20): P1-P4 operating, P5 under construction
+  [15] total-dram.csv:20 | TrendForce 2026-07-30 | new capacity timing | 2027-2028 | 2H27 ramp; 2028 output text | forecast
+      Q: Given the semiconductor manufacturing cycle, substantial output contributions are not expected to materialize until 2028.
+      N: New fabs ramp from 2H27; constrain 2027 bit supply growth
+====================================================================================================
+CONTEXT: …d TrendForce expects substantial output from them only in 2028. Micron has committed more than 75% of its 2027 output and SK hynix more than half of its capacity, and KB Securities estimates that customers have booked about 80% of Samsung's.
+  [2] server-ddr5.csv:235 | Micron (earnings call) 2026-09-30 | micron_output_committed | 2027 | >75 % | actual
+      Q: 2027, more than 75% of our output is already committed for 2027.
+      N: SCA + non-SCA.
+  [16] total-dram.csv:558 | SK hynix 2026-10-28 | SK hynix LTA coverage of capacity | 2027-2028 | >50 % | actual
+      Q: The LTA volume secured to date corresponds to more than 50% of total production capacity for 2027 and 2028.
+      N: Yongin Phase 1 to enter full-scale operation in 2027; M15X at max capacity by end-2026
+  [17] total-dram.csv:556 | EconoTimes (citing KB Securities) 2026-10-20 | Samsung 2027 memory output booked | 2027 | ~80 % | estimate
+      Q: Customers have booked about 80% of Samsung's planned 2027 memory output, KB Securities estimated.
+      N: Five-year agreements cover 70% of planned conventional DRAM and NAND output; all 2027 HBM committed
+====================================================================================================
+CONTEXT: …27 output and SK hynix more than half of its capacity, and KB Securities estimates that customers have booked about 80% of Samsung's. Contract price rises slow from 93–98% in 1Q26 to 10–15% in 4Q26, and no forecast in our sources has prices falling in 2027.
+  [18] supply-chain.csv:18 | TrendForce 2026-06-01 | conventional DRAM contract price change | 1Q26 | 93 to 98 % QoQ | actual
+      Q: increased by approximately 93% to 98% QoQ.
+      N: cat=all; TF estimate of the realized change
+  [19] supply-chain.csv:21 | TrendForce 2026-09-30 | conventional DRAM contract price change | 4Q26 | 10 to 15 % QoQ | forecast
+      Q: Conventional DRAM contract prices are projected to grow 10–15% QoQ in 4Q26
+      N: cat=all; latest TF quarterly call
+  [20] supply-chain.csv:213 | TrendForce 2026-07-09 | server DRAM price path | 2H26-2H27 | rising each quarter - | forecast
+      Q: continue rising quarterly from the second half of 2026 through the second half of 2027
+      N: cat=server-ecc; gains may slow; a server DRAM shortage is already anticipated for 2027
+  [21] server-ddr5.csv:168 | IBK Securities (Omdia data) 2026-05 | rdimm_64gb_ddr5_price | 1Q27 | 1130 USD/module | forecast
+      Q: 1Q26 2Q26(F) 3Q26(F) 4Q26(F) 1Q27(F) 2Q27(F) ... 64GB DDR5 $766 $1,035 $1,086 $1,119 $1,130 $1,130
+      N: Omdia contract ASP table reproduced by IBK (표 1, p.10). pub_date approximate (chart through 26.5; Omdia Apr-2026 monthly).
+====================================================================================================
+CONTEXT: …dram.csv:556]] Contract price rises slow from 93–98% in 1Q26 to 10–15% in 4Q26, and no forecast in our sources has prices falling in 2027. Samsung expects tight supply into 2028; SK hynix expects demand to exceed supply through 2030.
+  [22] total-dram.csv:485 | Samsung Electronics 2026-10-29 | supply constraint horizon | 2028 | tight into 2028 text | forecast
+      Q: tight supply conditions are expected to continue into 2028.
+      N: Samsung 2027 HBM supply sold out; HBM4E mass production 1H27
+  [16] supply-chain.csv:209 | SK hynix 2026-10-28 | SK hynix view on demand exceeding supply | to 2030 | persists through 2030 - | forecast
+      Q: it expects the structure in which demand exceeds supply to persist through 2030
+      N: cat=all
+====================================================================================================
+CONTEXT: …td>−7%103.1+9%−10% Client PC DDR5/DDR4 †17.7−6%19.6+11%−19% Total DRAM363.5+24%446.4+23%−3% Model medians.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …emory types Memory makers count output in gigabits. A phone with 8 GB of RAM holds 64 Gb. This report uses exabytes in the text, where 1 EB is 8 bn Gb, and bn Gb in tables. The industry makes about 45.4 EB in 2026, enough for 5.7 billion phones with 8 GB each.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …, SK hynix and Micron make most of the world's DRAM bits. In Mirae Asset's December 2025 table (Figure 1), Samsung's share of industry bits falls from 47% in 2023 to 35% in 2026 and 34% in 2027. SK hynix rises from 28% to 30%, and Micron eases from 19% to 18%.
+  [23] total-dram.csv:202 | Mirae Asset Securities 2025-12-15 | Samsung bit production | 2023 | 93.7 billion Gb | actual
+      Q: Total production (bn Gb) ... SEC 93.7 101.6 111.1 122.0 143.2
+      N: 
+  [23] total-dram.csv:205 | Mirae Asset Securities 2025-12-15 | Samsung bit production | 2026 | 122.0 billion Gb | forecast
+      Q: Total production (bn Gb) ... SEC 93.7 101.6 111.1 122.0 143.2
+      N: 
+  [23] total-dram.csv:206 | Mirae Asset Securities 2025-12-15 | Samsung bit production | 2027 | 143.2 billion Gb | forecast
+      Q: Total production (bn Gb) ... SEC 93.7 101.6 111.1 122.0 143.2
+      N: 
+  [23] total-dram.csv:207 | Mirae Asset Securities 2025-12-15 | SK hynix bit production | 2023 | 56.1 billion Gb | actual
+      Q: Total production (bn Gb) ... SK Hynix 56.1 64.5 84.7 105.2 125.1
+      N: 
+  [23] total-dram.csv:210 | Mirae Asset Securities 2025-12-15 | SK hynix bit production | 2026 | 105.2 billion Gb | forecast
+      Q: Total production (bn Gb) ... SK Hynix 56.1 64.5 84.7 105.2 125.1
+      N: 
+  [23] total-dram.csv:211 | Mirae Asset Securities 2025-12-15 | SK hynix bit production | 2027 | 125.1 billion Gb | forecast
+      Q: Total production (bn Gb) ... SK Hynix 56.1 64.5 84.7 105.2 125.1
+      N: 
+  [23] total-dram.csv:212 | Mirae Asset Securities 2025-12-15 | Micron bit production | 2023 | 38.8 billion Gb | actual
+      Q: Total production (bn Gb) ... Micron 38.8 48.6 55.8 63.7 74.5
+      N: 
+  [23] total-dram.csv:215 | Mirae Asset Securities 2025-12-15 | Micron bit production | 2026 | 63.7 billion Gb | forecast
+      Q: Total production (bn Gb) ... Micron 38.8 48.6 55.8 63.7 74.5
+      N: 
+  [23] total-dram.csv:216 | Mirae Asset Securities 2025-12-15 | Micron bit production | 2027 | 74.5 billion Gb | forecast
+      Q: Total production (bn Gb) ... Micron 38.8 48.6 55.8 63.7 74.5
+      N: 
+  [24] hbm-gddr.csv:222 | Mirae Asset Securities 2025-12-15 | total_production_bits | 2025 | 293.1 billion Gb | estimate
+      Q: Total production (bn Gb) 200.2 235.0 293.1 352.5 415.7 (2023 2024 2025F 2026F 2027F)
+      N: Context for HBM share math.
+====================================================================================================
+CONTEXT: …otal-dram.csv:207; total-dram.csv:210; total-dram.csv:211; total-dram.csv:212; total-dram.csv:215; total-dram.csv:216; hbm-gddr.csv:222]] The other makers, led by China's CXMT, grow from 6% of bits in 2023 to 17% in 2026, and from 15% to 22% of wafer capacity.
+  [23] total-dram.csv:217 | Mirae Asset Securities 2025-12-15 | CXMT bit production | 2023 | 5.3 billion Gb | actual
+      Q: Total production (bn Gb) ... CXMT 5.3 13.1 23.3 29.5 36.0
+      N: 
+  [23] total-dram.csv:220 | Mirae Asset Securities 2025-12-15 | CXMT bit production | 2026 | 29.5 billion Gb | forecast
+      Q: Total production (bn Gb) ... CXMT 5.3 13.1 23.3 29.5 36.0
+      N: 
+  [23] total-dram.csv:232 | Mirae Asset Securities 2025-12-15 | wafer capacity (industry) | 2023 | 1,363 kwpm | actual
+      Q: Wafer capacity ('000 wpm) 1,363 1,645 1,904 2,052 2,237
+      N: Sum of SEC, SK hynix, Micron, CXMT, Nanya. Year-end basis implied (text: end-2026 SEC ~700k vs table 665 suggests table is average or different basis)
+  [23] total-dram.csv:235 | Mirae Asset Securities 2025-12-15 | wafer capacity (industry) | 2026 | 2,052 kwpm | forecast
+      Q: Wafer capacity ('000 wpm) 1,363 1,645 1,904 2,052 2,237
+      N: Sum of SEC, SK hynix, Micron, CXMT, Nanya. Year-end basis implied (text: end-2026 SEC ~700k vs table 665 suggests table is average or different basis)
+  [23] total-dram.csv:237 | Mirae Asset Securities 2025-12-15 | Samsung wafer capacity | 2023 | 527 kwpm | actual
+      Q: Wafer capacity ('000 wpm) ... SEC 527 614 649 665 735
+      N: 
+  [23] total-dram.csv:240 | Mirae Asset Securities 2025-12-15 | Samsung wafer capacity | 2026 | 665 kwpm | forecast
+      Q: Wafer capacity ('000 wpm) ... SEC 527 614 649 665 735
+      N: 
+  [23] total-dram.csv:242 | Mirae Asset Securities 2025-12-15 | SK hynix wafer capacity | 2023 | 352 kwpm | actual
+      Q: Wafer capacity ('000 wpm) ... SK Hynix 352 416 523 586 646
+      N: 
+  [23] total-dram.csv:245 | Mirae Asset Securities 2025-12-15 | SK hynix wafer capacity | 2026 | 586 kwpm | forecast
+      Q: Wafer capacity ('000 wpm) ... SK Hynix 352 416 523 586 646
+      N: 
+  [23] total-dram.csv:247 | Mirae Asset Securities 2025-12-15 | Micron wafer capacity | 2023 | 278 kwpm | actual
+      Q: Wafer capacity ('000 wpm) ... Micron 278 314 333 349 369
+      N: 
+  [23] total-dram.csv:250 | Mirae Asset Securities 2025-12-15 | Micron wafer capacity | 2026 | 349 kwpm | forecast
+      Q: Wafer capacity ('000 wpm) ... Micron 278 314 333 349 369
+      N: 
+====================================================================================================
+CONTEXT: …o 17% in 2026, and from 15% to 22% of wafer capacity. SK hynix leads in HBM, on Counterpoint's revenue count for 2Q26.
+  [25] hbm-gddr.csv:129 | Counterpoint Research 2026-09-02 | revenue_share_SKH/Samsung/Micron | 2026Q2 | 50/33/18 % | actual
+      Q: In Q2 2026, SK Hynix maintained its top position with 50%, but showed a decline compared to 64% in the same period of the previous year.
+      N: Table values; quote covers 2026Q2 and 2025Q2 SK hynix.
+====================================================================================================
+CONTEXT: …6–2027 forecast). Others = industry total minus the three largest makers. Mirae's quarterly shipment pages in the same report add up to higher 2026 figures for Samsung and SK hynix, 136.0 and 125.0 bn Gb, against 122.0 and 105.2 bn Gb in this production table.
+  [26] total-dram.csv:514 | Mirae Asset Securities 2025-12-15 | Samsung DRAM bit shipments | 2026Q1 | 31.5 billion Gb | forecast
+      Q: DRAM ... Bitshipments(bnGb) 20.5 22.8 26.2 29.2 31.5 33.4 34.9 36.2
+      N: Quarterly 1Q25..4Q26F; incl HBM. Dec-2025 vintage; compare with company QoQ guidance rows (Samsung 2Q26 low teens, 3Q26 low-mid single; SK hynix 2Q26 high single, 3Q26 ~10%)
+  [26] total-dram.csv:515 | Mirae Asset Securities 2025-12-15 | Samsung DRAM bit shipments | 2026Q2 | 33.4 billion Gb | forecast
+      Q: DRAM ... Bitshipments(bnGb) 20.5 22.8 26.2 29.2 31.5 33.4 34.9 36.2
+      N: Quarterly 1Q25..4Q26F; incl HBM. Dec-2025 vintage; compare with company QoQ guidance rows (Samsung 2Q26 low teens, 3Q26 low-mid single; SK hynix 2Q26 high single, 3Q26 ~10%)
+  [26] total-dram.csv:516 | Mirae Asset Securities 2025-12-15 | Samsung DRAM bit shipments | 2026Q3 | 34.9 billion Gb | forecast
+      Q: DRAM ... Bitshipments(bnGb) 20.5 22.8 26.2 29.2 31.5 33.4 34.9 36.2
+      N: Quarterly 1Q25..4Q26F; incl HBM. Dec-2025 vintage; compare with company QoQ guidance rows (Samsung 2Q26 low teens, 3Q26 low-mid single; SK hynix 2Q26 high single, 3Q26 ~10%)
+  [26] total-dram.csv:517 | Mirae Asset Securities 2025-12-15 | Samsung DRAM bit shipments | 2026Q4 | 36.2 billion Gb | forecast
+      Q: DRAM ... Bitshipments(bnGb) 20.5 22.8 26.2 29.2 31.5 33.4 34.9 36.2
+      N: Quarterly 1Q25..4Q26F; incl HBM. Dec-2025 vintage; compare with company QoQ guidance rows (Samsung 2Q26 low teens, 3Q26 low-mid single; SK hynix 2Q26 high single, 3Q26 ~10%)
+  [26] total-dram.csv:530 | Mirae Asset Securities 2025-12-15 | SK hynix DRAM bit shipments | 2026Q1 | 29.1 billion Gb | forecast
+      Q: DRAM ... Bitshipments(bnGb) 19.5 24.2 26.1 27.8 29.1 31.6 31.9 32.4
+      N: Quarterly 1Q25..4Q26F; incl HBM. Dec-2025 vintage; compare with company QoQ guidance rows (Samsung 2Q26 low teens, 3Q26 low-mid single; SK hynix 2Q26 high single, 3Q26 ~10%)
+  [26] total-dram.csv:531 | Mirae Asset Securities 2025-12-15 | SK hynix DRAM bit shipments | 2026Q2 | 31.6 billion Gb | forecast
+      Q: DRAM ... Bitshipments(bnGb) 19.5 24.2 26.1 27.8 29.1 31.6 31.9 32.4
+      N: Quarterly 1Q25..4Q26F; incl HBM. Dec-2025 vintage; compare with company QoQ guidance rows (Samsung 2Q26 low teens, 3Q26 low-mid single; SK hynix 2Q26 high single, 3Q26 ~10%)
+  [26] total-dram.csv:532 | Mirae Asset Securities 2025-12-15 | SK hynix DRAM bit shipments | 2026Q3 | 31.9 billion Gb | forecast
+      Q: DRAM ... Bitshipments(bnGb) 19.5 24.2 26.1 27.8 29.1 31.6 31.9 32.4
+      N: Quarterly 1Q25..4Q26F; incl HBM. Dec-2025 vintage; compare with company QoQ guidance rows (Samsung 2Q26 low teens, 3Q26 low-mid single; SK hynix 2Q26 high single, 3Q26 ~10%)
+  [26] total-dram.csv:533 | Mirae Asset Securities 2025-12-15 | SK hynix DRAM bit shipments | 2026Q4 | 32.4 billion Gb | forecast
+      Q: DRAM ... Bitshipments(bnGb) 19.5 24.2 26.1 27.8 29.1 31.6 31.9 32.4
+      N: Quarterly 1Q25..4Q26F; incl HBM. Dec-2025 vintage; compare with company QoQ guidance rows (Samsung 2Q26 low teens, 3Q26 low-mid single; SK hynix 2Q26 high single, 3Q26 ~10%)
+  [23] total-dram.csv:205 | Mirae Asset Securities 2025-12-15 | Samsung bit production | 2026 | 122.0 billion Gb | forecast
+      Q: Total production (bn Gb) ... SEC 93.7 101.6 111.1 122.0 143.2
+      N: 
+  [23] total-dram.csv:210 | Mirae Asset Securities 2025-12-15 | SK hynix bit production | 2026 | 105.2 billion Gb | forecast
+      Q: Total production (bn Gb) ... SK Hynix 56.1 64.5 84.7 105.2 125.1
+      N: 
+====================================================================================================
+CONTEXT: …csv:533; total-dram.csv:205; total-dram.csv:210]] Memory types DRAM is the working memory in every computer, from a phone to an AI server. All DRAM types come out of one pool of wafers, and analysts track HBM, for example, as a share of total DRAM wafer input.
+  [27] hbm-gddr.csv:9 | TrendForce 2026-06-02 | share_of_dram_wafer_input | 2025 | 18 % | estimate
+      Q: approximately 18%, 22%, and 30% of total DRAM wafer input by the end of 2025, 2026, and 2027, respectively
+      N: Top three suppliers, end of year. Wafer share / bit share gives implied trade ratio.
+  [28] lpddr.csv:143 | Samsung (Reuters, via TrendForce News) 2026-09-29 | hbm_share_of_industry_dram_wafer_capacity | 2026 | 20 % of industry DRAM wafer capacity | estimate
+      Q: nearly 30% of the DRAM industry's total wafer capacity next year, up from about 20% currently
+      N: Samsung EVP Kim Taewoo. Wafers moved to HBM are not available for LPDDR.
+====================================================================================================
+CONTEXT: …> Other / consumerTVs, networking gear, industrial equipment, consoles. Much of it older DDR4, DDR3 and DDR2.11.33% Total363.5100% Model medians for 2026.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …h of it older DDR4, DDR3 and DDR2.11.33% Total363.5100% Model medians for 2026. Server DDR5 share from TrendForce; SOCAMM2 from NVIDIA; HBM stack heights from TrendForce.
+  [29] server-ddr5.csv:137 | TrendForce 2025-05-28 | ddr5_share_of_server_dram_bits | 1Q25 | 90 % | actual
+      Q: Bit Shipment Share of DDR5 Has Climbed to Around 90%
+      N: Paywalled report; title only. Conflicts with the 60-65% 2025 forecast (much faster transition).
+  [30] lpddr.csv:115 | NVIDIA  | vera_rubin_nvl72_lpddr5x_per_rack | 2026-2027 | 54 TB per rack (max) | actual
+      Q: Up to 54 TB LPDDR5X
+      N: 36 Vera CPUs, 'Up to 1.5 TB LPDDR5X' each (SOCAMM). TrendForce (Jun 2026) reports Nvidia halved SOCAMM capacity per Vera Rubin module due to supply.
+  [31] hbm-gddr.csv:135 | TrendForce 2026-09-29 | 8hi_price_premium_per_gb_vs_12hi | 2027 | 10-20 % | forecast
+      Q: TrendForce expects 8-Hi products to carry a roughly 10–20% price premium per Gb over 12-Hi products in 2027.
+      N: Vendors may move from 12-Hi to 8-Hi in 2027, cutting HBM GB per device.
+====================================================================================================
+CONTEXT: …e server and PC rows (Chapter 2 and Chapter 4). Shares are rounded. By company and memory type Figure 2 and Table 1 multiply company totals by our type totals, with HBM fixed from broker bit shares and the other cells fitted to published mix data (Appendix B).
+  [32] M:vendor_by_type.csv
+  [33] M:METHOD.md
+====================================================================================================
+CONTEXT: …totals, with HBM fixed from broker bit shares and the other cells fitted to published mix data (Appendix B). SK hynix makes 49% of HBM bits in 2026 and 38% in 2027, while Samsung rises from 29% to 40%, close to the bit-share forecasts of Daishin, Citi and UBS.
+  [32] M:vendor_by_type.csv
+  [34] vendor-mix.csv:17 | Daishin Securities 2026-02-25 | Samsung HBM market share | 2026 | 29 % of HBM shipments | forecast
+      Q: 40 49 41 22 29 39 49 49 52 57 49 39 10 2 8 21 19 18
+      N: vendor=Samsung; basis=bit (chart 59 note: 출하량 기준). Labels read as 2022-2027 series for Samsung, SKH, Micron; remainder = China (~3% 2026, ~4% 2027, derived). Weak (chart parse).
+  [34] vendor-mix.csv:18 | Daishin Securities 2026-02-25 | Samsung HBM market share | 2027 | 39 % of HBM shipments | forecast
+      Q: 40 49 41 22 29 39 49 49 52 57 49 39 10 2 8 21 19 18
+      N: vendor=Samsung; basis=bit (chart 59 note: 출하량 기준). Labels read as 2022-2027 series for Samsung, SKH, Micron; remainder = China (~3% 2026, ~4% 2027, derived). Weak (chart parse).
+  [34] vendor-mix.csv:20 | Daishin Securities 2026-02-25 | SK hynix HBM market share | 2026 | 49 % of HBM shipments | forecast
+      Q: 40 49 41 22 29 39 49 49 52 57 49 39 10 2 8 21 19 18
+      N: vendor=SK hynix; basis=bit (chart 59 note: 출하량 기준). Labels read as 2022-2027 series for Samsung, SKH, Micron; remainder = China (~3% 2026, ~4% 2027, derived). Weak (chart parse).
+  [34] vendor-mix.csv:21 | Daishin Securities 2026-02-25 | SK hynix HBM market share | 2027 | 39 % of HBM shipments | forecast
+      Q: 40 49 41 22 29 39 49 49 52 57 49 39 10 2 8 21 19 18
+      N: vendor=SK hynix; basis=bit (chart 59 note: 출하량 기준). Labels read as 2022-2027 series for Samsung, SKH, Micron; remainder = China (~3% 2026, ~4% 2027, derived). Weak (chart parse).
+  [35] vendor-mix.csv:26 | Citi (via NeoTeo) 2026-10-02 | Samsung HBM market share | 2026 | 30 % of HBM market | forecast
+      Q: Citi's estimates put Samsung's share of the HBM market at about 30% in 2026 and forecast about 42% in 2027.
+      N: vendor=Samsung; basis=unstated (bit vs revenue not given).
+  [35] vendor-mix.csv:27 | Citi (via NeoTeo) 2026-10-02 | Samsung HBM market share | 2027 | 42 % of HBM market | forecast
+      Q: Citi's HBM market-share forecast for 2027 puts Samsung at about 42%, SK hynix at 35% and Micron at 22%.
+      N: vendor=Samsung; basis=unstated.
+  [35] vendor-mix.csv:28 | Citi (via NeoTeo) 2026-10-02 | SK hynix HBM market share | 2027 | 35 % of HBM market | forecast
+      Q: The forecast puts SK hynix at 35%, down from an estimated 47%, while Micron is projected to remain at 22%.
+      N: vendor=SK hynix; basis=unstated; 47% is Citi 2026 estimate.
+  [36] vendor-mix.csv:32 | VLSI Korea (citing ChosunBiz, Counterpoint, JPMorgan, UBS, Bernstein) 2026-10-25 | Samsung HBM market share | 2027 | 41 % of HBM bit shipments | forecast
+      Q: UBS's 2027 bit-shipment framework has Samsung at 41% and SK hynix at 39%.
+      N: vendor=Samsung; basis=bit; UBS. Earlier UBS note (hbm-gddr.csv) says ~40/~40/~20.
+====================================================================================================
+CONTEXT: … the bit-share forecasts of Daishin, Citi and UBS. Counterpoint's 2Q26 revenue shares were 50% for SK hynix, 33% for Samsung and 18% for Micron.
+  [37] vendor-mix.csv:2 | Counterpoint Research (via Seoul Economic Daily) 2026-09-03 | Samsung HBM market share | 2026Q2 | 33 % of HBM revenue | estimate
+      Q: Samsung held a 33% revenue share of the HBM market in the second quarter
+      N: vendor=Samsung; basis=revenue; Counterpoint quarterly tracker as reported by Seoul Economic Daily.
+  [37] vendor-mix.csv:3 | Counterpoint Research (via Seoul Economic Daily) 2026-09-03 | SK hynix HBM market share | 2026Q2 | 50 % of HBM revenue | estimate
+      Q: The figure still trails SK hynix at 50%
+      N: vendor=SK hynix; basis=revenue; Counterpoint.
+  [37] vendor-mix.csv:4 | Counterpoint Research (via Seoul Economic Daily) 2026-09-03 | Micron HBM market share | 2026Q2 | 18 % of HBM revenue | estimate
+      Q: Micron's share slipped 3 percentage points to 18% over the same period
+      N: vendor=Micron; basis=revenue; Counterpoint.
+====================================================================================================
+CONTEXT: …ix, 33% for Samsung and 18% for Micron. Samsung and SK hynix split server ECC about evenly, and Samsung leads LPDDR with 37% in 2026. Samsung's cells carry the widest ranges, 43.9 to 69.9 bn Gb for its 2026 server ECC, because Samsung publishes no mix by type.
+  [32] M:vendor_by_type.csv
+  [33] M:METHOD.md
+====================================================================================================
+CONTEXT: …publishes no mix by type. SK hynix has the most server-heavy mix, with 57.5 of its 108.5 bn Gb in server ECC in 2026. By our measurement of the chart in its 3Q26 results slides, server was 55.8% of its DRAM revenue; Investing.com read the same chart as 50–55%.
+  [32] M:vendor_by_type.csv
+  [38] vendor-mix.csv:93 | SK hynix 2026-10-28 | SK hynix Server share of own DRAM revenue | 2026Q3 | 55.8 % of vendor DRAM revenue | derived
+      Q: Revenue by Application ... DRAM ... Server
+      N: vendor=SK hynix; basis=revenue; company chart without data labels; derived = segment height / bar height from PDF vector rectangles (201.7/361.6 pt), +/-0.3 pt. Graphics bucket includes HBM (slide legend).
+  [39] vendor-mix.csv:97 | Investing.com 2026-10-27 | SK hynix server share of own DRAM revenue (secondary reading) | 2026Q3 | 50-55 % of vendor DRAM revenue | estimate
+      Q: server memory remained the largest segment at approximately 50-55% of DRAM revenue
+      N: vendor=SK hynix; basis=revenue; secondary reading of the same chart; conflicts on mobile (says 20-25%; vector measure 13.5%). Prefer vector rows.
+====================================================================================================
+CONTEXT: …26. By our measurement of the chart in its 3Q26 results slides, server was 55.8% of its DRAM revenue; Investing.com read the same chart as 50–55%. CXMT makes mostly LPDDR, 20.5 of its 30.4 bn Gb, and LPDDR was 66.4% of its 2025 revenue in its IPO prospectus.
+  [32] M:vendor_by_type.csv
+  [40] vendor-mix.csv:149 | CXMT (ChangXin Technology Group) 2026 (registration draft; exact date not shown) | CXMT LPDDR series share of main-business revenue | 2025 | 66.43 % of vendor main-business revenue | actual
+      Q: LPDDR 4,070,354.50 66.43%
+      N: vendor=CXMT; basis=revenue; page text mis-encoded (GBK); numbers legible; row label inferred as LPDDR系列. Amount in 10k CNY.
+====================================================================================================
+CONTEXT: …same chart as 50–55%. CXMT makes mostly LPDDR, 20.5 of its 30.4 bn Gb, and LPDDR was 66.4% of its 2025 revenue in its IPO prospectus. Samsung leads GDDR with 61% in 2026; TrendForce put its 2025 GDDR7 share at 70%.
+  [32] M:vendor_by_type.csv
+  [41] vendor-mix.csv:150 | TrendForce (via Hankyung / Daum) 2025-12-03 | Samsung GDDR7 market share | 2025 | 70 % of GDDR7 market | estimate
+      Q: 3일 시장조사업체 트렌드포스에 따르면 삼성전자의 올해 GDDR7 점유율은 70%로 추산됐다.
+      N: vendor=Samsung; basis=unstated; TrendForce via Hankyung. GDDR7 only.
+====================================================================================================
+CONTEXT: …25 revenue in its IPO prospectus. Samsung leads GDDR with 61% in 2026; TrendForce put its 2025 GDDR7 share at 70%. The server and LPDDR cells in the Nanya and others row are mostly legacy DDR4 and LPDDR4, not DDR5 RDIMMs or LPDDR5X.
+  [42] vendor-mix.csv:161 | Nanya Technology (transcript summary via AlphaMemo) 2026-10-12 | Nanya DDR4 + LPDDR4 share of revenue | 2026Q3 | >60 % of vendor revenue | actual
+      Q: Q3 產品組合：DDR5 約佔 10%，DDR4 與低功耗 DDR4 合計超過 60%，DDR3 未計入此數字。
+      N: vendor=Nanya; basis=revenue (assumed); AI-generated call summary; DDR3 excluded from the figure.
+  [33] M:METHOD.md
+====================================================================================================
+CONTEXT: …============================ CHAPTER 1 --> Chapter 1 Supply grows fast, and AI servers take it first 51%of all DRAM bits made in 2026 go into HBM and server RDIMMs, on TrendForce's August estimate.
+  [3] server-ddr5.csv:224 | TrendForce 2026-08-25 | hbm_plus_rdimm_share_of_dram_bit_supply | 2026 | 51 % | forecast
+      Q: HBM and RDIMM combined will account for 51% of DRAM bit supply in 2026
+      N: 
+====================================================================================================
+CONTEXT: …first 51%of all DRAM bits made in 2026 go into HBM and server RDIMMs, on TrendForce's August estimate. Our model puts 2026 output at 363.5 bn Gb (45.4 EB), up 24% on 2025, with an 80% range of 348.7 to 378.9 bn Gb.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …bn Gb (45.4 EB), up 24% on 2025, with an 80% range of 348.7 to 378.9 bn Gb. Micron told investors on 30 September that it expects industry bit shipments to grow in the mid-20s percent in 2026, and SK hynix put 2026 DRAM demand growth at the same level in July.
+  [2] total-dram.csv:2 | Micron 2026-09-30 | bit shipment growth YoY | 2026 | mid-20s % | forecast
+      Q: In DRAM, for calendar 2026, we expect industry bit shipments to grow in the mid-20s percentage range.
+      N: Industry DRAM bit shipments (includes HBM); range label, approx 24-26%
+  [13] total-dram.csv:491 | SK hynix 2026-07-29 | bit demand growth YoY (SK hynix view) | 2026 | mid-20s % | forecast
+      Q: DRAM and NAND demand are projected to grow by mid-20% and high teen percent respectively
+      N: Year not stated in quote; context is 2026. Q3 call said 2027 similar to this year at mid-20s
+====================================================================================================
+CONTEXT: …378.9 bn Gb. Micron told investors on 30 September that it expects industry bit shipments to grow in the mid-20s percent in 2026, and SK hynix put 2026 DRAM demand growth at the same level in July. TrendForce still puts 2026 supply 1–2% below demand.
+  [15] total-dram.csv:18 | TrendForce 2026-07-30 | sufficiency ratio | 2026 | -1 to -2 % | estimate
+      Q: TrendForce estimates the DRAM sufficiency ratio at approximately -1% to -2% in 2026.
+      N: Sufficiency = supply vs demand gap; gap expected to widen in 2027
+====================================================================================================
+CONTEXT: …. TrendForce still puts 2026 supply 1–2% below demand. Most of the growth comes from denser chips. SK hynix's share of output on its newest 1c process goes from about 10% in 1Q26 to an expected 34% in 4Q26, on Korean press reports cited by TrendForce.
+  [43] total-dram.csv:496 | TrendForce News (citing Chosun Biz) 2026-09-07 | SK hynix 1c share of DRAM production | 2026Q1 | 10 % | estimate
+      Q: 1c DRAM accounted for around 10% of SK hynix's production in 1Q26 and 13% in 2Q26
+      N: Media report, not company data
+  [44] total-dram.csv:499 | TrendForce News (citing Chosun Biz) 2026-09-07 | SK hynix 1c share of DRAM production | 2026Q4 | 34 % | forecast
+      Q: projected to climb to around 24% in 3Q26 and 34% in 4Q26, surpassing Samsung's roughly 31%, before reaching 35% in 1Q27
+      N: 
+====================================================================================================
+CONTEXT: …owth comes from denser chips. SK hynix's share of output on its newest 1c process goes from about 10% in 1Q26 to an expected 34% in 4Q26, on Korean press reports cited by TrendForce. The model backs out a 14% gain in bits per wafer from node migration in 2026.
+  [45] M:checks.csv
+====================================================================================================
+CONTEXT: …b; 2027 80% range 402–496 bn Gb. Segments are medians, so a stack can differ slightly from the total median above it. Server memory takes the new bits Our model, built a different way from TrendForce's estimate, gets 52.3% of 2026 bits for HBM plus server ECC.
+  [45] M:checks.csv
+====================================================================================================
+CONTEXT: …ory takes the new bits Our model, built a different way from TrendForce's estimate, gets 52.3% of 2026 bits for HBM plus server ECC. Server ECC output rises 44% to 157.7 bn Gb and HBM 54% to 32.5 bn Gb. Phone and tablet LPDDR falls 7%, and client PC memory 6%.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …ate, gets 52.3% of 2026 bits for HBM plus server ECC. Server ECC output rises 44% to 157.7 bn Gb and HBM 54% to 32.5 bn Gb. Phone and tablet LPDDR falls 7%, and client PC memory 6%. TrendForce counts 17% more server shipments in 2026 and 32.2% more AI servers.
+  [15] server-ddr5.csv:115 | TrendForce 2026-07-30 | shipments_growth_yoy | 2026 | 17 % | estimate
+      Q: TrendForce forecasts global server shipments to grow faster in 2027 than the 17% YoY recorded in 2026.
+      N: Conflicts with Apr-2026 13%; latest TrendForce view.
+  [46] server-ddr5.csv:117 | TrendForce 2026-10-14 | shipments_growth_yoy | 2026 | 32.2 % | forecast
+      Q: TrendForce now forecasts AI server shipments to grow 32.2% YoY in 2026 given the strong overall demand outlook.
+      N: Latest (Oct 2026).
+====================================================================================================
+CONTEXT: …. Phone and tablet LPDDR falls 7%, and client PC memory 6%. TrendForce counts 17% more server shipments in 2026 and 32.2% more AI servers. It expects memory to take 47% of the big cloud providers' capital spending in 2026 and 68% in 2027.
+  [3] total-dram.csv:509 | TrendForce 2026-08-25 | memory share of major CSP capex | 2027 | 68 % | forecast
+      Q: DRAM and NAND Flash combined will account for 47% of CSPs' total CapEx in 2026 ... share rising further to 68% in 2027
+      N: Demand-side (buyer capex), not supplier capex
+====================================================================================================
+CONTEXT: … TrendForce counts 17% more server shipments in 2026 and 32.2% more AI servers. It expects memory to take 47% of the big cloud providers' capital spending in 2026 and 68% in 2027. By 1Q26 a 64 GB DDR5 RDIMM earned more revenue per wafer than HBM.
+  [47] supply-chain.csv:51 | TrendForce 2026-06-02 | HBM vs DDR5 64GB RDIMM wafer revenue | 1Q26 | RDIMM above HBM - | estimate
+      Q: HBM wafer revenue was overtaken by DDR5 64GB RDIMM in 1Q26.
+      N: cat=server-ecc; why suppliers shift wafers to server DDR5
+====================================================================================================
+CONTEXT: … revenue per wafer than HBM. HBM takes a larger share of wafers than of bits Micron puts the wafer trade ratio between HBM and DDR5 at about 3:1, so a wafer moved to HBM yields about a third of the bits, and it says the ratio rises with future HBM generations.
+  [48] hbm-gddr.csv:86 | Micron (FQ1 2026 call) 2025-12-17 | wafer_trade_ratio_vs_ddr5 | 2025 | 3 x | actual
+      Q: the three-to-one trade ratio with DDR5, and this trade ratio only increases with future generations of HBM
+      N: 
+====================================================================================================
+CONTEXT: …to HBM yields about a third of the bits, and it says the ratio rises with future HBM generations. TrendForce expects HBM to take 22% of the top three suppliers' wafers and give 9% of their bits at the end of 2026, and 30% and 13% at the end of 2027 (Figure 4).
+  [27] hbm-gddr.csv:6 | TrendForce 2026-06-02 | share_of_dram_bit_supply | 2025 | 8 % | estimate
+      Q: HBM bit supply is expected to represent approximately 8%, 9%, and 13% of total DRAM bit supply
+      N: End-of-year basis, top three suppliers. Best current TrendForce bit-share series.
+  [27] hbm-gddr.csv:9 | TrendForce 2026-06-02 | share_of_dram_wafer_input | 2025 | 18 % | estimate
+      Q: approximately 18%, 22%, and 30% of total DRAM wafer input by the end of 2025, 2026, and 2027, respectively
+      N: Top three suppliers, end of year. Wafer share / bit share gives implied trade ratio.
+====================================================================================================
+CONTEXT: …2% of the top three suppliers' wafers and give 9% of their bits at the end of 2026, and 30% and 13% at the end of 2027 (Figure 4). Samsung gives about 20% of industry wafers now and close to 30% next year; Applied Materials put the share at about 15% in March.
+  [28] lpddr.csv:143 | Samsung (Reuters, via TrendForce News) 2026-09-29 | hbm_share_of_industry_dram_wafer_capacity | 2026 | 20 % of industry DRAM wafer capacity | estimate
+      Q: nearly 30% of the DRAM industry's total wafer capacity next year, up from about 20% currently
+      N: Samsung EVP Kim Taewoo. Wafers moved to HBM are not available for LPDDR.
+  [49] hbm-gddr.csv:17 | Applied Materials (CFO Bryce Hill, via The Elec) 2026-03-17 | share_of_dram_wafers | 2026-03 | 15 % | estimate
+      Q: about 15% of DRAM wafers are now allocated to HBM production.
+      N: Said at Cantor Fitzgerald conference 2026-03-10.
+====================================================================================================
+CONTEXT: … three suppliers, end of year; 2025 estimate, 2026–2027 forecast). The ratio compares HBM with the all-DRAM average. HBM output rises 61% in 2027 and is sold out Our model has HBM at 52.2 bn Gb (6.5 EB) in 2027, up 61%, with an 80% range of 44.5 to 62.2 bn Gb.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …e ratio compares HBM with the all-DRAM average. HBM output rises 61% in 2027 and is sold out Our model has HBM at 52.2 bn Gb (6.5 EB) in 2027, up 61%, with an 80% range of 44.5 to 62.2 bn Gb. TrendForce expects 50–60% growth in 2027 bit shipments.
+  [50] hbm-gddr.csv:250 | TrendForce 2026-08-04 | bit_shipment_growth | 2027 | 50-60 % | forecast
+      Q: HBM bit shipments are projected to grow by 50–60% YoY in 2027
+      N: Key 2027 bit-growth anchor.
+====================================================================================================
+CONTEXT: …6.5 EB) in 2027, up 61%, with an 80% range of 44.5 to 62.2 bn Gb. TrendForce expects 50–60% growth in 2027 bit shipments. HBM4 reached 60% of Samsung's HBM sales in the third quarter, and SK hynix expects HBM4 to pass HBM3E in volume and revenue in the fourth.
+  [22] total-dram.csv:486 | Samsung Electronics 2026-10-29 | Samsung HBM4 share of its HBM sales | 2026Q3 | 60 % | actual
+      Q: HBM4 mix increased to 60% of total HBM sales.
+      N: Context
+  [16] hbm-gddr.csv:142 | SK hynix 2026-10-28 | hbm4_overtakes_hbm3e | 2026Q4 | HBM4 > HBM3E in volume and revenue text | forecast
+      Q: HBM4 to surpass HBM3E in both shipment volume and revenue in the fourth quarter
+      N: 
+====================================================================================================
+CONTEXT: …and SK hynix expects HBM4 to pass HBM3E in volume and revenue in the fourth. Samsung says its 2027 HBM supply is sold out. Micron has contracted the bulk of its 2027 HBM bits, and SK hynix calls its DRAM and HBM volumes "essentially all sold out" through 2029.
+  [51] hbm-gddr.csv:177 | Samsung (Q3 2026 call, via MoneyToday) 2026-10-29 | sold_out | 2027 | sold out text | actual
+      Q: the supply is already sold out
+      N: Refers to 2027 ('next year').
+  [52] hbm-gddr.csv:242 | Micron (via Seoul Economic Daily) 2026-10-01 | contracted_2027 | 2027 | bulk of 2027 HBM bit supply contracted text | actual
+      Q: it had completed contracts with customers for the bulk of its 2027 HBM bit supply
+      N: At prices above 2026 levels.
+  [53] hbm-gddr.csv:176 | SK hynix (Q3 2026 call, via MoneyToday) 2026-10-28 | sold_out | 2027-2029 | sold out text | actual
+      Q: DRAM and High Bandwidth Memory (HBM) volumes for the next three years, through 2029, are essentially all sold out.
+      N: LTAs cover >50% of capacity for 2027 and 2028.
+====================================================================================================
+CONTEXT: … has contracted the bulk of its 2027 HBM bits, and SK hynix calls its DRAM and HBM volumes "essentially all sold out" through 2029. Industry estimates reported by Seoul Economic Daily put a 12-high 36 GB HBM4 stack at about $600 this year and $1,300 next year.
+  [52] hbm-gddr.csv:245 | Seoul Economic Daily (industry estimates) 2026-10-01 | hbm4_12hi_36gb_stack_price | 2026 | ~600 USD/stack | estimate
+      Q: a 12-high 36-gigabyte HBM4 stack is expected to more than double to around $1,300 next year ... from about $600 this year
+      N: Derived: $600/36 GB = $16.7/GB = $2.08/Gb.
+====================================================================================================
+CONTEXT: …BM volumes "essentially all sold out" through 2029. Industry estimates reported by Seoul Economic Daily put a 12-high 36 GB HBM4 stack at about $600 this year and $1,300 next year. TrendForce expects HBM contract prices to rise 70–140% in 2027.
+  [3] supply-chain.csv:52 | TrendForce 2026-08-25 | HBM contract price change | 2027 | 70 to 140 % YoY | forecast
+      Q: HBM contract prices could still rise by 70–140% in 2027.
+      N: cat=hbm
+====================================================================================================
+CONTEXT: …27 the pinch moves to server LPDDR, and server DRAM is shorter than it looks 60%of Nvidia's estimated 2027 LPDRAM needs is what suppliers can deliver, according to TrendForce in June. In our model that is about 40 bn Gb against a need of about 67 bn Gb.
+  [4] lpddr.csv:129 | TrendForce 2026-06-10 | nvidia_lpdram_need_met | 2027 | 60 % of Nvidia estimated LPDRAM needs | forecast
+      Q: NVIDIA is set to receive enough LPDRAM to meet only about 60% of its estimated needs
+      N: Based on preliminary 2027 supplier allocations. Supply-constrained ceiling.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …l that is about 40 bn Gb against a need of about 67 bn Gb. Nvidia's Vera CPU, which sits beside the Rubin GPUs, uses LPDDR5X in removable SOCAMM2 modules. A Vera Rubin NVL72 rack holds up to 54 TB of it, against 17 TB in the GB200 and GB300 racks it replaces.
+  [30] lpddr.csv:115 | NVIDIA  | vera_rubin_nvl72_lpddr5x_per_rack | 2026-2027 | 54 TB per rack (max) | actual
+      Q: Up to 54 TB LPDDR5X
+      N: 36 Vera CPUs, 'Up to 1.5 TB LPDDR5X' each (SOCAMM). TrendForce (Jun 2026) reports Nvidia halved SOCAMM capacity per Vera Rubin module due to supply.
+  [54] lpddr.csv:113 | NVIDIA  | gb200_nvl72_lpddr5x_per_rack | 2025 | 17 TB per rack | actual
+      Q: 17 TB LPDDR5X | 14 TB/s
+      N: 36 Grace CPUs per rack; 'Up to 480 GB LPDDR5X' per GB200 superchip (1 Grace + 2 Blackwell). 36 x 480 GB = 17.28 TB.
+====================================================================================================
+CONTEXT: …ources, so the gaps rank segments and do not add up to the total gap. Server LPDDR: balanced in 2026, the largest gap in 2027 In 2026 our model puts server LPDDR output at 23.3 bn Gb, against Meritz Securities' estimate of 24 bn Gb for Nvidia's SOCAMM2 demand.
+  [1] M:forecast_by_category.csv
+  [55] lpddr.csv:125 | Meritz Securities 2026-05-22 | nvidia_socamm2_demand | 2026 | 24 billion Gb | forecast
+      Q: 2026년 엔비디아 SoCAMM2 수요 240억 Gb
+      N: = 3.0 EB. Table: 1,536Gb (192GB) per module, ~15.63M modules. Excludes standalone Vera CPU rack sales.
+====================================================================================================
+CONTEXT: …ced in 2026, the largest gap in 2027 In 2026 our model puts server LPDDR output at 23.3 bn Gb, against Meritz Securities' estimate of 24 bn Gb for Nvidia's SOCAMM2 demand. Samsung began mass production of 192 GB modules in March and SK hynix followed in April.
+  [56] lpddr.csv:167 | Korea JoongAng Daily 2026-03-11 | socamm2_mass_production_samsung | 2026Q1 | 192 GB per module | actual
+      Q: Samsung Electronics began mass production of a 192GB Socamm2 module, the first such move in the industry.
+      N: Samsung 1b process. First to mass production.
+  [57] lpddr.csv:119 | SK hynix 2026-04-20 | socamm2_mass_production | 2026-04 | 192 GB per module | actual
+      Q: announced today that it has begun mass production of the 192GB SOCAMM2
+      N: 1c LPDDR5X; for NVIDIA Vera Rubin.
+====================================================================================================
+CONTEXT: …s' estimate of 24 bn Gb for Nvidia's SOCAMM2 demand. Samsung began mass production of 192 GB modules in March and SK hynix followed in April. For 2027 Meritz estimated in May that Vera Rubin systems need 72.7 bn Gb (9.1 EB) of SOCAMM2.
+  [55] lpddr.csv:126 | Meritz Securities 2026-05-22 | nvidia_socamm2_demand | 2027 | 9084 PB | forecast
+      Q: SoCAMM2 기준 총 9,084PB의 메모리 수요가 발생한다
+      N: ~9.1 EB. Assumes 5,700 Vera Rubin pods (91,000 NVL72 racks in 2027), 8 SOCAMM2 x 192GB per CPU. Meritz: equal to ~1.19B 8GB phones. Upside: standalone Vera CPU sales could add ~6,144 PB.
+====================================================================================================
+CONTEXT: …n of 192 GB modules in March and SK hynix followed in April. For 2027 Meritz estimated in May that Vera Rubin systems need 72.7 bn Gb (9.1 EB) of SOCAMM2. A note from Edgewater Research, quoted third-hand, puts the need at 60–70 billion, with the unit unclear.
+  [58] lpddr.csv:128 | Edgewater Research (quoted by YK Research) 2026-04-15 | nvidia_dram_demand | 2027 | 65 billion (unit unclear) (60-70) | estimate
+      Q: NVIDIA is forecasting 21-23B for DRAM demand for CY26 and saying that may grow to 60-70 [GB] in CY27.
+      N: If Gb: 7.5-8.75 EB; consistent with Meritz 9.1 EB. Edgewater: NVDA LPx bit demand 'projected to grow 3x in CY27'.
+====================================================================================================
+CONTEXT: … at 60–70 billion, with the unit unclear. The model takes a median need of 67.3 bn Gb (8.4 EB) from these views and sets supply at TrendForce's 60% fill rate. That gives 40.4 bn Gb and a gap of 26.9 bn Gb, or 40%, the largest of any segment in 2027 (Figure 5).
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …gives 40.4 bn Gb and a gap of 26.9 bn Gb, or 40%, the largest of any segment in 2027 (Figure 5). The gap is TrendForce's figure carried through the model, not an independent result. Nvidia halved the SOCAMM capacity of each Vera Rubin superchip module in June.
+  [5] lpddr.csv:177 | TrendForce 2026-06-10 | vera_socamm_capacity_cut | 2026-06 | 50 % cut in SOCAMM capacity per Vera Rubin module | actual
+      Q: has decided to halve the SOCAMM memory capacity of its next-generation Vera Rubin Superchip modules
+      N: Due to insufficient 2027 LPDRAM allocation. Meritz: 96GB module orders may rise ~6x; total SOCAMM2 demand +10-20% (search summary only).
+====================================================================================================
+CONTEXT: …the SOCAMM capacity of each Vera Rubin superchip module in June. The Meritz estimate predates that cut, so part of the gap closes on paper, through less memory per CPU rather than more supply. TrendForce expects LPDDR5X supply constraints to last through 2027.
+  [59] supply-chain.csv:215 | TrendForce 2026-08-04 | LPDDR5X supply (NVIDIA planning view) | 2027 | constrained through 2027 - | forecast
+      Q: LPDDR5X supply constraints are likely to continue through 2027
+      N: cat=lpddr; NVIDIA halved SOCAMM capacity for Vera Rubin
+====================================================================================================
+CONTEXT: …ss memory per CPU rather than more supply. TrendForce expects LPDDR5X supply constraints to last through 2027. HBM: about 10% short Against UBS's 2027 HBM demand of 58.0 bn Gb, the model's 52.2 bn Gb leaves a gap of about 10%, with an 80% range of −23% to +7%.
+  [1] M:forecast_by_category.csv
+  [60] hbm-gddr.csv:32 | UBS (via Investing.com) 2026-05-13 | end_demand_bits | 2027 | 58.0 billion Gb | forecast
+      Q: 58.0 billion gigabits for 2027, up 76%.
+      N: 
+====================================================================================================
+CONTEXT: …h 2027. HBM: about 10% short Against UBS's 2027 HBM demand of 58.0 bn Gb, the model's 52.2 bn Gb leaves a gap of about 10%, with an 80% range of −23% to +7%. Goldman Sachs put the gap at 6% in June, so the model is more pessimistic.
+  [61] hbm-gddr.csv:119 | Goldman Sachs (via Tiger Brokers/Deep News) 2026-06-01 | supply_demand_gap | 2027 | -6.0 % | forecast
+      Q: HBM: The shortage is most critical, with gaps projected at -5.4%, -6.0%, and -4.3%, respectively.
+      N: 2026 -5.4%, 2027 -6.0%, 2028 -4.3%.
+====================================================================================================
+CONTEXT: …to +7%. Goldman Sachs put the gap at 6% in June, so the model is more pessimistic. HBM demand could also shrink, because in early 3Q26 Nvidia began to evaluate lower-specification HBM for Rubin Ultra after planning on 12-high HBM4E, TrendForce reported.
+  [50] hbm-gddr.csv:252 | TrendForce 2026-08-04 | rubin_ultra_hbm_config_review | 2027 | 8-Hi HBM4e / 12-Hi HBM4 / 8-Hi HBM4 under evaluation text | forecast
+      Q: beginning in early 3Q26, the company started evaluating lower-specification alternatives.
+      N: Baseline was 12-Hi HBM4e through 1H26. Lower configs cut GB per Rubin Ultra.
+====================================================================================================
+CONTEXT: …arly 3Q26 Nvidia began to evaluate lower-specification HBM for Rubin Ultra after planning on 12-high HBM4E, TrendForce reported. Server ECC: near balance on paper, short in practice Server ECC is the largest family, 157.7 bn Gb in 2026 and 186.7 bn Gb in 2027.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …e on paper, short in practice Server ECC is the largest family, 157.7 bn Gb in 2026 and 186.7 bn Gb in 2027. Its 2027 growth of 18% follows TrendForce's July guide of 15–20% for RDIMM bit supply, which TrendForce said lags server CPU shipments "significantly".
+  [20] server-ddr5.csv:226 | TrendForce 2026-07-09 | rdimm_bit_supply_growth | 2027 | 15-20 % | forecast
+      Q: total RDIMM bit supply will grow by only 15–20% YoY, significantly lagging the projected growth in server CPU shipments
+      N: Compare server CPU +40% 2027.
+====================================================================================================
+CONTEXT: … 2026 and 186.7 bn Gb in 2027. Its 2027 growth of 18% follows TrendForce's July guide of 15–20% for RDIMM bit supply, which TrendForce said lags server CPU shipments "significantly". It expects those CPU shipments to grow 31% in 2026 and more than 40% in 2027.
+  [62] server-ddr5.csv:120 | TrendForce 2026-10-22 | cpu_shipments_growth_yoy | 2026 | 31 % | forecast
+      Q: Server CPU shipments are projected to increase 31% YoY in 2026.
+      N: CPU sockets drive RDIMM count.
+  [62] server-ddr5.csv:121 | TrendForce 2026-10-22 | cpu_shipments_growth_yoy | 2027 | >40 % | forecast
+      Q: drive server CPU shipments up by more than 40% YoY
+      N: 
+====================================================================================================
+CONTEXT: …rce said lags server CPU shipments "significantly". It expects those CPU shipments to grow 31% in 2026 and more than 40% in 2027. Against Mirae Asset's demand forecast, updated for those unit numbers, the model shows +1% in 2026 and −3% in 2027.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …Against Mirae Asset's demand forecast, updated for those unit numbers, the model shows +1% in 2026 and −3% in 2027. Samsung Securities reported that server customers received under 60% of their orders in 4Q25 and 66% in 1Q26, which points to a much larger gap.
+  [6] server-ddr5.csv:220 | Samsung Securities 2026-01-28 | order_fulfillment_rate | 1Q26 | 66 % | estimate
+      Q: the order fulfillment rate for server customers stands at 66% (vs below 60% in 4Q25)
+      N: 
+====================================================================================================
+CONTEXT: …server customers received under 60% of their orders in 4Q25 and 66% in 1Q26, which points to a much larger gap. Mirae's forecast assumes 903 GB per server in 2026, set in December 2025 before this year's upgrades, and rationed buyers order more than they need.
+  [24] server-ddr5.csv:50 | Mirae Asset Securities 2025-12-15 | avg_dram_content | 2026 | 903 GB/unit | forecast
+      Q: Server 515 597 717 903 1,065
+      N: Row from table with columns 2023 2024 2025F 2026F 2027F. Blended general + AI server, conventional DRAM (excl. HBM).
+  [33] M:METHOD.md
+====================================================================================================
+CONTEXT: …fect can be sized from our sources, so we read the −3% as a floor. TrendForce reported that some systems moved from 96 GB and 128 GB modules to 32 GB and 64 GB, and that cloud providers and server makers cut RDIMM capacity per server in the first half of 2026.
+  [20] supply-chain.csv:111 | TrendForce 2026-07-09 | server module capacity mix shift | 1H26-3Q26 | 96/128GB to 32/64GB GB per module | estimate
+      Q: some systems shifting from 96 GB and 128 GB modules to 32 GB and 64 GB modules.
+      N: cat=server-ecc; buyers cut capacity per server to stretch supply
+  [59] supply-chain.csv:176 | TrendForce 2026-08-04 | server memory configuration cuts | 1H26 | RDIMM capacity reduced - | estimate
+      Q: CSPs and server OEMs reduced RDIMM capacities for server configurations during the first half of 2026
+      N: cat=server-ecc; NVIDIA also halved SOCAMM capacity for Vera Rubin
+====================================================================================================
+CONTEXT: …me systems moved from 96 GB and 128 GB modules to 32 GB and 64 GB, and that cloud providers and server makers cut RDIMM capacity per server in the first half of 2026. It expected server DRAM contract prices to rise about 90% in 1Q26 and about 270% across 2026.
+  [63] server-ddr5.csv:153 | TrendForce 2026-02-02 | server_dram_contract_price_qoq | 1Q26 | 90 % | forecast
+      Q: expected to drive server DRAM prices up by around 90% QoQ in 1Q26, marking the largest quarterly increase on record
+      N: 
+  [3] server-ddr5.csv:160 | TrendForce 2026-08-25 | server_dram_contract_price_yoy | 2026 | 270 % | forecast
+      Q: with a further jump of approximately 270% expected in 2026
+      N: Annual change; basis (avg-to-avg vs end-to-end) not stated.
+====================================================================================================
+CONTEXT: … in the first half of 2026. It expected server DRAM contract prices to rise about 90% in 1Q26 and about 270% across 2026. Omdia's data, reproduced by IBK Securities, has a 64 GB DDR5 RDIMM at $265 in 3Q25 and about $1,119 by 4Q26.
+  [64] server-ddr5.csv:200 | IBK Securities (Omdia data) 2026-01 | rdimm_64gb_ddr5_price | 3Q25 | 265 USD/module | estimate
+      Q: 3Q25 4Q25 1Q26(F) 2Q26(F) 3Q26(F) 4Q26(F) ... 64GB DDR5 $265 $451 $699 $839 $880 $907
+      N: Omdia Jan-2026 table via IBK. 
+  [21] server-ddr5.csv:167 | IBK Securities (Omdia data) 2026-05 | rdimm_64gb_ddr5_price | 4Q26 | 1119 USD/module | forecast
+      Q: 1Q26 2Q26(F) 3Q26(F) 4Q26(F) 1Q27(F) 2Q27(F) ... 64GB DDR5 $766 $1,035 $1,086 $1,119 $1,130 $1,130
+      N: Omdia contract ASP table reproduced by IBK (표 1, p.10). pub_date approximate (chart through 26.5; Omdia Apr-2026 monthly).
+====================================================================================================
+CONTEXT: … 2026. Omdia's data, reproduced by IBK Securities, has a 64 GB DDR5 RDIMM at $265 in 3Q25 and about $1,119 by 4Q26. DDR5 across servers and PCs TrendForce put DDR5 at around 90% of server DRAM bits as early as 1Q25.
+  [29] server-ddr5.csv:137 | TrendForce 2025-05-28 | ddr5_share_of_server_dram_bits | 1Q25 | 90 % | actual
+      Q: Bit Shipment Share of DDR5 Has Climbed to Around 90%
+      N: Paywalled report; title only. Conflicts with the 60-65% 2025 forecast (much faster transition).
+====================================================================================================
+CONTEXT: …d 90% of server DRAM bits as early as 1Q25. Adding the DDR5 part of server ECC and client PC memory, the model puts DDR5 at 163.7 bn Gb in 2026 and 199.7 bn Gb in 2027, up 22% and about 45% of all bits. The PC share of DDR5 rests on an assumption (Appendix B).
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …y, the model puts DDR5 at 163.7 bn Gb in 2026 and 199.7 bn Gb in 2027, up 22% and about 45% of all bits. The PC share of DDR5 rests on an assumption (Appendix B). SK hynix's server DDR5 shipments rose more than 40% from the second to the third quarter of 2026.
+  [65] server-ddr5.csv:238 | SK hynix (earnings call) 2026-10-27 | skhynix_server_ddr5_shipments_qoq | 3Q26 | >40 % | actual
+      Q: shipments of server DDR5 increased by over 40% compared to Q2, driving overall growth in DRAM bit shipments
+      N: Total DRAM bits ~+10% QoQ 3Q26; 4Q26 guided mid-20% QoQ.
+====================================================================================================
+CONTEXT: …==== CHAPTER 3 --> Chapter 3 Phones and PCs absorb the shortage through price and spec cuts −16.7%is IDC's forecast for 2026 smartphone shipments, while the average phone price rises 27.6% to $581.
+  [7] lpddr.csv:24 | IDC 2026-08-26 | shipments_yoy_forecast | 2026 | -16.7 % YoY | forecast
+      Q: worldwide smartphone shipments will fall 16.7% in 2026 to just over 1 billion units
+      N: Latest IDC view seen. Memory prices expected to rise until at least 2028; supply to stabilize in 2028.
+  [7] lpddr.csv:182 | IDC 2026-08-26 | asp_forecast | 2026 | 581 USD per smartphone | forecast
+      Q: The average selling price of a smartphone will reach $581 in 2026, up 27.6% in a single year
+      N: Price up, units down: memory cost passed through.
+====================================================================================================
+CONTEXT: …ge phone price rises 27.6% to $581. The model has phone and tablet LPDDR at 94.5 bn Gb in 2026 against 115.8 bn Gb of demand in Mirae Asset's December 2025 forecast, and client PC memory at 17.7 bn Gb against 20.7 bn Gb. On paper those are gaps of 18% and 14%.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: … memory, at higher prices, so most of the gap is demand the price rise removed. The 18% phone gap sits close to IDC's 16.7% fall in phone units. Phones: fewer units, less memory, higher prices IDC expects 2026 smartphone shipments of just over a billion units.
+  [7] lpddr.csv:24 | IDC 2026-08-26 | shipments_yoy_forecast | 2026 | -16.7 % YoY | forecast
+      Q: worldwide smartphone shipments will fall 16.7% in 2026 to just over 1 billion units
+      N: Latest IDC view seen. Memory prices expected to rise until at least 2028; supply to stabilize in 2028.
+====================================================================================================
+CONTEXT: …e rise removed. The 18% phone gap sits close to IDC's 16.7% fall in phone units. Phones: fewer units, less memory, higher prices IDC expects 2026 smartphone shipments of just over a billion units. Counterpoint expects 1.08 billion, and TrendForce 1.07 billion.
+  [66] lpddr.csv:26 | Counterpoint 2026-06-01 | shipments_forecast | 2026 | 1080 million units | forecast
+      Q: full-year 2026 shipments now forecast to decline 13.9% YoY to 1.08 billion units
+      N: Rebound anticipated in 2028; memory squeeze through H2 2027.
+  [67] lpddr.csv:27 | TrendForce 2026-09-08 | production_forecast | 2026 | 1070 million units | forecast
+      Q: TrendForce has raised its forecast for global smartphone production in 2026 from 1.05 billion to 1.07 billion units
+      N: Production, not sell-in shipments. YoY -14%.
+====================================================================================================
+CONTEXT: …y, higher prices IDC expects 2026 smartphone shipments of just over a billion units. Counterpoint expects 1.08 billion, and TrendForce 1.07 billion. TrendForce reported in February that memory had risen from 10–15% of a smartphone's component cost to 30–40%.
+  [9] supply-chain.csv:159 | TrendForce 2026-02-11 | smartphone memory share of BOM | 1Q26 | 30 to 40 % of BOM | estimate
+      Q: Memory, which historically accounted for around 10–15% of a smartphone's BOM, has now surged to 30–40%.
+      N: cat=lpddr
+====================================================================================================
+CONTEXT: …lion. TrendForce reported in February that memory had risen from 10–15% of a smartphone's component cost to 30–40%. For a 256 GB iPhone Pro it estimates memory at about 10% of the bill a year earlier, about 34% in 3Q26 and over 40% in the first half of 2027.
+  [68] supply-chain.csv:158 | TrendForce 2026-08-10 | iPhone Pro 256GB memory share of BOM | 3Q26 / 1H27 | ~34 / >40 % of BOM | forecast
+      Q: from around 10% a year ago to approximately 34% in 3Q26, and is expected to exceed 40% in 1H27
+      N: cat=lpddr; BOM +38% YoY; memory prices up five- to sevenfold since the beginning of 2025
+====================================================================================================
+CONTEXT: …ad risen from 10–15% of a smartphone's component cost to 30–40%. For a 256 GB iPhone Pro it estimates memory at about 10% of the bill a year earlier, about 34% in 3Q26 and over 40% in the first half of 2027. TrendForce expected iPhone 18 prices to rise 10–20%.
+  [69] supply-chain.csv:156 | TrendForce 2026-09-03 | iPhone 18 series retail price change | 3Q26 launch | 10 to 20 % | forecast
+      Q: Prices for the new models are projected to rise by around 10–20%
+      N: cat=lpddr; TF view; Apple absorbs part of the cost
+====================================================================================================
+CONTEXT: …ar earlier, about 34% in 3Q26 and over 40% in the first half of 2027. TrendForce expected iPhone 18 prices to rise 10–20%. Samsung priced the base Galaxy S26 at $899 in the US, 4.7% more than its predecessor, and Xiaomi raised prices in Japan by up to ¥20,000.
+  [70] lpddr.csv:180 | Reuters (via Investing.com) 2026-02-25 | galaxy_s26_price_change | 2026-02 | 4.7 % vs prior model (US base) | actual
+      Q: Samsung priced the base Galaxy S26 at $899 in the United States, up 4.7% from the previous model
+      N: S26 Plus $1,099 (+10%); Korea base +8.6%; Ultra unchanged. Counterpoint: removing 128GB variant raised start price.
+  [71] lpddr.csv:181 | Android Authority 2026-08-23 | xiaomi_price_hike | 2026-09 | 20000 JPY (up to, per device) | actual
+      Q: Xiaomi is raising prices on several smartphones and tablets by up to ¥20,000 (~$137)
+      N: Xiaomi Japan, effective Sep 1/Sep 4 2026. 17T Pro 12GB/256GB ¥119,800 -> ¥139,800 (+16.7%). Some devices ~25% more expensive. RAM config kept at 12GB.
+====================================================================================================
+CONTEXT: …rise 10–20%. Samsung priced the base Galaxy S26 at $899 in the US, 4.7% more than its predecessor, and Xiaomi raised prices in Japan by up to ¥20,000. Samsung's phone business posted a KRW 700 billion operating loss in 2Q26, its first quarterly loss on record.
+  [72] supply-chain.csv:165 | TrendForce 2026-07-30 | Samsung mobile (MX) operating result | 2Q26 | -0.7 KRW trillion | actual
+      Q: posted a KRW 700 billion operating loss, marking its first quarterly loss on record
+      N: cat=lpddr; Reuters via TF; memory cost squeeze on Samsung's own phone unit
+====================================================================================================
+CONTEXT: … up to ¥20,000. Samsung's phone business posted a KRW 700 billion operating loss in 2Q26, its first quarterly loss on record. TrendForce expected entry phone models to return to 4 GB in 2026, and 12 GB to become the high-end standard as 16 GB use declines.
+  [10] supply-chain.csv:160 | TrendForce 2025-12-11 | low-end smartphone base RAM | 2026 | 4 GB | forecast
+      Q: The most affected will be the low-end smartphone market, where base models are likely to return to 4GB in 2026.
+      N: cat=lpddr; spec cut
+  [73] lpddr.csv:179 | TrendForce 2026-05-14 | oem_spec_mix | 2026 | 12 GB (high-end mainstream config) | estimate
+      Q: In the high-end segment, 12GB is becoming the mainstream configuration while 16GB adoption declines.
+      N: Mid-range back to 8GB; entry ~4GB. Counterpoint: most flagships keep 2025 memory configs.
+====================================================================================================
+CONTEXT: …y loss on record. TrendForce expected entry phone models to return to 4 GB in 2026, and 12 GB to become the high-end standard as 16 GB use declines. IDC described a phone that shipped with 12 GB of RAM a year ago and "may now debut with 8GB of RAM".
+  [11] lpddr.csv:178 | IDC 2026-02-26 | oem_spec_cut | 2026 | 8 GB RAM (was 12GB) | estimate
+      Q: might have shipped with 12GB of RAM and 256GB of storage a year ago may now debut with 8GB of RAM and 128GB of storage
+      N: Illustrative spec cut at same or higher price. Low-end OEMs 'cutting specifications or shifting volume above $200'.
+====================================================================================================
+CONTEXT: …turn to 4 GB in 2026, and 12 GB to become the high-end standard as 16 GB use declines. IDC described a phone that shipped with 12 GB of RAM a year ago and "may now debut with 8GB of RAM". TrendForce still expects average phone memory to edge up 10%, to 8.5 GB.
+  [74] lpddr.csv:42 | TrendForce 2026-05-14 | avg_dram_per_phone | 2026 | 8.5 GB | forecast
+      Q: Average smartphone DRAM capacity is still projected to increase to 8.5GB in 2026—representing annual growth of 10%
+      N: Calendar-year average basis (differs from Counterpoint December basis). High-end 12GB mainstream, mid-range back to 8GB, entry ~4GB.
+====================================================================================================
+CONTEXT: …still expects average phone memory to edge up 10%, to 8.5 GB. Phone memory contract prices rose 78–83% in 2Q26 on TrendForce's forecast. The rise slowed to 5–10% in 3Q26 on Counterpoint's count, and to 0–5% in 4Q26 on TrendForce figures cited by Goldman Sachs.
+  [73] lpddr.csv:95 | TrendForce 2026-05-14 | lpddr_asp_qoq | 2026Q2 | 80.5 % QoQ (LPDDR5X, midpoint of 78-83%) | forecast
+      Q: the ASP of LPDDR5X solutions will see a QoQ surge of 78-83%
+      N: LPDDR4X: 'at least 70-75% QoQ'.
+  [75] lpddr.csv:157 | Counterpoint 2026-10-30 | smartphone_memory_price_qoq | 2026Q3 | 7.5 % QoQ (5-10%) | actual
+      Q: Smartphone memory price growth slowed to 5%-10% in Q3 2026 compared with Q2 2026
+      N: Midpoint. Includes NAND (smartphone memory basket).
+  [76] lpddr.csv:159 | TrendForce (cited by Goldman Sachs, via Tiger Brokers) 2026-10-01 | mobile_dram_contract_qoq | 2026Q4 | 2.5 % QoQ (0-5%) | forecast
+      Q: average selling prices for PC DRAM, server DRAM, and mobile DRAM are expected to rise 13%-18%, 10%-15%, and 0%-5%
+      N: Midpoint. Mobile is the weakest category. TrendForce 4Q26 report (2026-10-30): smartphone LPDRAM 'flat to slightly higher', notebook LPDRAM rises more.
+====================================================================================================
+CONTEXT: …oint's count, and to 0–5% in 4Q26 on TrendForce figures cited by Goldman Sachs. Forecasts for 1Q27 have it rising again (Signposts). IDC expects phone shipments to fall another 1.1% in 2027, and Samsung said in October that higher prices will cut unit volumes.
+  [77] lpddr.csv:22 | IDC 2026-05-26 | shipments_yoy_forecast | 2027 | -1.1 % YoY | forecast
+      Q: A second consecutive decline of 1.1% is now expected in 2027, with a 5.5% rebound forecast in 2028
+      N: 
+  [78] lpddr.csv:185 | Samsung Electronics 2026-10-29 | units_outlook_2027 | 2027 |   | forecast
+      Q: higher prices to offset the impact of rising material costs are expected to cause unit volumes to decline
+      N: MX business, 2027 outlook. Qualitative.
+====================================================================================================
+CONTEXT: … Samsung said in October that higher prices will cut unit volumes. The model has phone and tablet LPDDR at 103.1 bn Gb in 2027, with an 80% range of 80.3 to 128.9 bn Gb. Phones get what is left after servers, so they carry most of the uncertainty in the total.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …nes get what is left after servers, so they carry most of the uncertainty in the total. PCs: the core components take the margin IDC expects PC shipments to fall 11.3% in 2026, with average prices up 17%. Third-quarter shipments fell 20.1% from a year earlier.
+  [8] server-ddr5.csv:251 | IDC 2026-06-02 | shipments_growth_yoy | 2026 | -11.3 % | forecast
+      Q: IDC now forecasts global PC shipments will decline 11.3% for the full year
+      N: Q4 2026 seen -20% YoY.
+  [8] server-ddr5.csv:252 | IDC 2026-06-02 | asp_growth | 2026 | 17 % | forecast
+      Q: IDC forecasts ASP growth of 17% in 2026
+      N: No relief before end-2027.
+  [79] server-ddr5.csv:253 | VenSearch (citing IDC preliminary) 2026-10-09 | shipments | 3Q26 | 62.7 million units | actual
+      Q: Worldwide PC shipments fell 20.1% year over year in the third quarter of 2026, to 62.7 million units
+      N: IDC preliminary 2026-10-08.
+====================================================================================================
+CONTEXT: …uarter shipments fell 20.1% from a year earlier. In TrendForce's cost model for a $900 notebook, the CPU, DRAM and SSD went from about 45% of the bill of materials in 1Q25 to 68% in 3Q26. A brand would need to raise the price about 80% to keep its margin.
+  [80] supply-chain.csv:167 | TrendForce 2026-09-04 | notebook CPU+DRAM+SSD share of BOM (900 USD model) | 1Q25 / 3Q26 | 45 / 68 % of BOM | estimate
+      Q: this share had risen to 68% by 3Q26
+      N: cat=ddr5; 1Q25 base: core components including the CPU, DRAM, and SSD accounted for approximately 45%
+  [81] server-ddr5.csv:256 | TrendForce 2026-09-04 | notebook_price_rise_needed_vs_1q25 | 3Q26 | 80 % | estimate
+      Q: by 3Q26, brands would need to raise the price of a comparable 1Q25 product by approximately 80%
+      N: To hold margin.
+====================================================================================================
+CONTEXT: …tebook, the CPU, DRAM and SSD went from about 45% of the bill of materials in 1Q25 to 68% in 3Q26. A brand would need to raise the price about 80% to keep its margin. Omdia's data has a 16 GB DDR5 desktop module going from $45.20 in 3Q25 to about $176 in 4Q26.
+  [64] server-ddr5.csv:206 | IBK Securities (Omdia data) 2026-01 | udimm_16gb_ddr5_price | 3Q25 | 45.2 USD/module | estimate
+      Q: 3Q25 4Q25 1Q26(F) 2Q26(F) 3Q26(F) 4Q26(F) ... 16GB DDR5 $45.2 $72.2 $115.6 $138.7 $145.6 $150.0
+      N: Omdia Jan-2026 table via IBK. 
+  [21] server-ddr5.csv:185 | IBK Securities (Omdia data) 2026-05 | udimm_16gb_ddr5_price | 4Q26 | 176.0 USD/module | forecast
+      Q: 1Q26 2Q26(F) 3Q26(F) 4Q26(F) 1Q27(F) 2Q27(F) ... 16GB DDR5 $122.8 $159.7 $170.8 $176.0 $177.7 177.7
+      N: Omdia contract ASP table reproduced by IBK (표 1, p.10). pub_date approximate (chart through 26.5; Omdia Apr-2026 monthly).
+====================================================================================================
+CONTEXT: …% in 3Q26. A brand would need to raise the price about 80% to keep its margin. Omdia's data has a 16 GB DDR5 desktop module going from $45.20 in 3Q25 to about $176 in 4Q26. Apple raised the 512 GB MacBook Air from $1,099 to $1,299.
+  [82] supply-chain.csv:151 | TrendForce 2026-06-26 | Apple price increases (Mac, iPad) | mid-2026 | MacBook Air 512GB 1099 to 1299; MacBook Pro 1TB 1699 to 1999; iPad Air 599 to 749; Neo 599 to 699 USD | actual
+      Q: MacBook Air (512GB) increasing to $1,299 from $1,099
+      N: cat=all; Reuters/BBC via TF; BBC: roughly 20% on select laptops and tablets
+====================================================================================================
+CONTEXT: …going from $45.20 in 3Q25 to about $176 in 4Q26. Apple raised the 512 GB MacBook Air from $1,099 to $1,299. For 2027 the model and TrendForce differ. TrendForce warned in September that PC DRAM supply could shrink as capacity shifts to servers.
+  [19] supply-chain.csv:214 | TrendForce 2026-09-30 | PC DRAM supply | 2027 | could decline - | forecast
+      Q: the PC DRAM supply could decline in 2027 as more capacity shifts to server applications.
+      N: cat=ddr5
+====================================================================================================
+CONTEXT: …1,299. For 2027 the model and TrendForce differ. TrendForce warned in September that PC DRAM supply could shrink as capacity shifts to servers. The model has client PC memory up about 11%, to 19.6 bn Gb, with a range of 15.2 to 24.7 bn Gb that includes a fall.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …. Near the median, TrendForce's decline is the likelier outcome. Consoles and graphics cards Microsoft raised the entry Xbox by $100 to $499. It said memory and storage prices had risen 2.5 times in recent months and expected them to double again by fall 2027.
+  [82] supply-chain.csv:149 | TrendForce 2026-06-26 | Xbox console price increase | Aug 2026 | +100 to 499; +150 to 749 USD | actual
+      Q: raise the price of its entry-level console by $100 to $499, while a higher-storage variant will increase by $150 to $749.
+      N: cat=all; BBC via TF; second hike in under a year; cumulative ~30-40%
+  [82] supply-chain.csv:150 | TrendForce 2026-06-26 | Xbox statement on memory cost | 2026-06 | 2.5 x rise in recent months | actual
+      Q: storage and memory prices have surged 2.5x in recent months and are expected to double again by fall 2027.
+      N: cat=all; Xbox blog via TF; also a 2027 outlook signal
+====================================================================================================
+CONTEXT: …ox by $100 to $499. It said memory and storage prices had risen 2.5 times in recent months and expected them to double again by fall 2027. Graphics memory has no public bit data, so the model treats it loosely, at about 8.5 bn Gb in 2026 and 9.2 bn Gb in 2027.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …uble again by fall 2027. Graphics memory has no public bit data, so the model treats it loosely, at about 8.5 bn Gb in 2026 and 9.2 bn Gb in 2027. TrendForce says suppliers are leaving GDDR6, and GDDR7 demand comes mainly from AI chips.
+  [83] hbm-gddr.csv:206 | TrendForce 2026-09-30 | market_direction | 2026Q4 | GDDR6 exiting; GDDR7 driven by AI chips text | forecast
+      Q: On the supply side, suppliers continue to scale back GDDR6 production while gradually exiting the market.
+      N: Same release: 'GDDR7 demand, meanwhile, continues to be driven primarily by AI chips'.
+====================================================================================================
+CONTEXT: …bn Gb in 2026 and 9.2 bn Gb in 2027. TrendForce says suppliers are leaving GDDR6, and GDDR7 demand comes mainly from AI chips. Micron discontinued 2 GB GDDR7 chips for gaming cards, Tom's Hardware reported, and median RTX 50 prices at Newegg rose by up to 39%.
+  [84] hbm-gddr.csv:289 | Tom's Hardware 2026 | micron_2gb_gddr7_eol | 2026 | Micron exits 2GB GDDR7 for gaming; pivots to 3GB for AI text | actual
+      Q: Micron discontinues 2GB GDDR7 chips for gaming GPUs as it pivots toward higher-density memory for AI
+      N: Headline. RTX 50 cards left with Samsung and SK hynix as GDDR7 sources (Hardware Busters).
+  [85] hbm-gddr.csv:288 | Tom's Hardware 2026 | rtx50_price_change_newegg_median | 2026 | up to +39 % | estimate
+      Q: GeForce RTX 50-series GPU prices spike as much as 39% as Blackwell price hikes hit the US
+      N: Headline only; RTX 5070 +36%, RTX 5060 +27%. Date not visible.
+====================================================================================================
+CONTEXT: …, and GDDR7 demand comes mainly from AI chips. Micron discontinued 2 GB GDDR7 chips for gaming cards, Tom's Hardware reported, and median RTX 50 prices at Newegg rose by up to 39%. Jon Peddie Research expects the add-in board market to fall almost 10% in 2026.
+  [86] hbm-gddr.csv:217 | Jon Peddie Research 2026-03-05 | aib_market_forecast | 2026 | ~-10 % | forecast
+      Q: the PC and AIB market will decline almost 10% in 2026
+      N: 
+====================================================================================================
+CONTEXT: …X 50 prices at Newegg rose by up to 39%. Jon Peddie Research expects the add-in board market to fall almost 10% in 2026. Cars and other devices Cars use about 2% of DRAM on Omdia's 2025 numbers, and Micron says the average car holds about 16 GB.
+  [87] lpddr.csv:135 | Omdia (via CXMT IPO prospectus, reported by XenoSpectrum) 2026-08-21 | share_of_dram_demand | 2025 | 2 % of DRAM demand | estimate
+      Q: followed by mobile at approximately 28%, PCs at approximately 13%, and smart vehicles at approximately 2%
+      N: Conflicts with TrendForce >3% (2024F).
+  [88] lpddr.csv:136 | Micron 2026-03-18 | avg_dram_per_vehicle | 2026 | 16 GB per vehicle | estimate
+      Q: The average car today has less than L2 ADAS capability, containing approximately 16GB of DRAM
+      N: Most auto DRAM is LPDDR4/LPDDR5. 'vehicles with L4 autonomy require over 300GB'.
+====================================================================================================
+CONTEXT: … to fall almost 10% in 2026. Cars and other devices Cars use about 2% of DRAM on Omdia's 2025 numbers, and Micron says the average car holds about 16 GB. The model keeps auto at a fixed share, 9.1 bn Gb in 2026 and 12.2 bn Gb in 2027, close to demand.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …umbers, and Micron says the average car holds about 16 GB. The model keeps auto at a fixed share, 9.1 bn Gb in 2026 and 12.2 bn Gb in 2027, close to demand. Other consumer and industrial devices, about 11 bn Gb, show a small surplus against Mirae's forecast.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …> Chapter 4 No real relief before 2028 2028is when new fabs add substantial output, on TrendForce's July view. Samsung said in October that even its higher 2027 spending is unlikely to boost bit output meaningfully in 2028.
+  [15] total-dram.csv:20 | TrendForce 2026-07-30 | new capacity timing | 2027-2028 | 2H27 ramp; 2028 output text | forecast
+      Q: Given the semiconductor manufacturing cycle, substantial output contributions are not expected to materialize until 2028.
+      N: New fabs ramp from 2H27; constrain 2027 bit supply growth
+  [22] total-dram.csv:484 | Samsung Electronics 2026-10-29 | industry capex direction | 2027 | significant increase text | forecast
+      Q: the increase in CapEx in 2027 is unlikely to result in a meaningful boost to bit production in 2028
+      N: Samsung: much of 2027 capex goes to new space (cleanrooms); tight supply expected to continue into 2028
+====================================================================================================
+CONTEXT: …tantial output, on TrendForce's July view. Samsung said in October that even its higher 2027 spending is unlikely to boost bit output meaningfully in 2028. Our model expects 2027 output of 446.4 bn Gb (55.8 EB), up 22.6%, with an 80% range of 402 to 496 bn Gb.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …of past forecasting misses, including the 2023 downturn, into it (Appendix B). Micron expects industry bit shipments to grow in the low 20s percent in 2027 and 2028, TrendForce's July outlook has 24%, and Mirae Asset's December 2025 forecast implied about 18%.
+  [2] total-dram.csv:3 | Micron 2026-09-30 | bit shipment growth YoY | 2027 | low 20s % | forecast
+      Q: For calendar 2027 and 2028, we expect industry DRAM bit shipments to grow approximately in the low 20s percentage range
+      N: Range label approx 20-23%; Micron says supply-demand tighter in 2027-2028 than 2026
+  [89] total-dram.csv:471 | TrendForce 2026-07-28 | bit supply growth YoY | 2027 | 24 % | forecast
+      Q: New Fabs and Process Migrations Will Drive 24% Supply Bit Growth in 2027
+      N: Paywalled report; only TOC heading seen. Heading says relief from capacity crowding-out (HBM) is limited
+  [24] hbm-gddr.csv:222 | Mirae Asset Securities 2025-12-15 | total_production_bits | 2025 | 293.1 billion Gb | estimate
+      Q: Total production (bn Gb) 200.2 235.0 293.1 352.5 415.7 (2023 2024 2025F 2026F 2027F)
+      N: Context for HBM share math.
+====================================================================================================
+CONTEXT: …owth comes from denser process nodes in existing fabs. In the model, moving the node-migration gain from its low to its high case swings 2027 supply by 44 bn Gb. No single new fab moves it by more than 4.3 bn Gb, because each starts around mid-year (Figure 6).
+  [12] M:sensitivity.csv
+====================================================================================================
+CONTEXT: … high case swings 2027 supply by 44 bn Gb. No single new fab moves it by more than 4.3 bn Gb, because each starts around mid-year (Figure 6). SK hynix's 1c node is expected to reach 35% of its output in 1Q27 and pass the older 1b node, on Korean press reports.
+  [44] total-dram.csv:500 | TrendForce News (citing Chosun Biz) 2026-09-07 | SK hynix 1c share of DRAM production | 2027Q1 | 35 % | forecast
+      Q: before reaching 35% in 1Q27 ... 1c is expected to overtake 1b, at around 33%, for the first time
+      N: 1b approx 33% in 1Q27
+====================================================================================================
+CONTEXT: …gure 6). SK hynix's 1c node is expected to reach 35% of its output in 1Q27 and pass the older 1b node, on Korean press reports. Samsung and SK hynix are buying about 20 and 24 extreme ultraviolet lithography tools, on industry estimates reported by TrendForce.
+  [90] supply-chain.csv:123 | TrendForce 2026-04-15 | Samsung EUV systems secured | 2026 | ~20 EUV systems | estimate
+      Q: securing around 20 EUV systems from ASML for sub-10nm advanced process nodes
+      N: cat=all; SeDaily via TF; total lithography orders ~70, mainly Pyeongtaek P5 Line 1
+  [90] supply-chain.csv:124 | TrendForce 2026-04-15 | SK hynix EUV systems ordered | two years to 2027 | ~24 EUV systems | estimate
+      Q: the order is understood to cover about 24 EUV systems, based on industry estimates of roughly 500 billion won per unit
+      N: cat=all; The Elec via TF; ~12 trillion won over two years; Bloomberg: ~8 USD billion on ASML tools through 2027
+====================================================================================================
+CONTEXT: …:500]] Samsung and SK hynix are buying about 20 and 24 extreme ultraviolet lithography tools, on industry estimates reported by TrendForce. TrendForce credits its 24% to "new fabs and process migrations" together; our model gives most of the work to migration.
+  [89] total-dram.csv:471 | TrendForce 2026-07-28 | bit supply growth YoY | 2027 | 24 % | forecast
+      Q: New Fabs and Process Migrations Will Drive 24% Supply Bit Growth in 2027
+      N: Paywalled report; only TOC heading seen. Heading says relief from capacity crowding-out (HBM) is limited
+====================================================================================================
+CONTEXT: …del, CXMT's expansion matters more than any single Korean or American fab. TrendForce News, citing Commercial Times, expects CXMT's capacity to rise from about 320,000 wafers a month to 420,000 by 2027. Mirae Asset's December table had CXMT at 328,000 in 2027.
+  [91] total-dram.csv:504 | TrendForce News (citing Commercial Times) 2026-09-24 | CXMT wafer capacity | 2026 (current) | 320 kwpm | estimate
+      Q: CXMT's monthly DRAM capacity is expected to rise from around 320,000 wafers currently to 420,000 wafers by 2027
+      N: Mirae Dec-2025 had CXMT 298 (2026) and 328 (2027) kwpm; this source is higher
+  [23] total-dram.csv:256 | Mirae Asset Securities 2025-12-15 | CXMT wafer capacity | 2027 | 328 kwpm | forecast
+      Q: Wafer capacity ('000 wpm) ... CXMT 90 173 260 298 328
+      N: 
+====================================================================================================
+CONTEXT: …s capacity to rise from about 320,000 wafers a month to 420,000 by 2027. Mirae Asset's December table had CXMT at 328,000 in 2027. The fab calendar SK hynix opens the cleanroom of its Yongin Phase 1 fab in early 2027, with full-scale operation during the year.
+  [13] total-dram.csv:495 | SK hynix 2026-07-29 | SK hynix Yongin Phase 1 cleanroom opening | 2027 early | 1 event | forecast
+      Q: following the clean room opening of the Yongin Phase 1 in early 2027
+      N: Q3 call: shell construction accelerated; cleanrooms open in phases
+  [16] total-dram.csv:559 | SK hynix 2026-10-28 | SK hynix Yongin Phase 1 operation | 2027 | full-scale operation event | forecast
+      Q: Next year, with the Yongin Phase 1 entering full-scale operation...
+      N: Q2 call said cleanroom opens early 2027
+====================================================================================================
+CONTEXT: …dar SK hynix opens the cleanroom of its Yongin Phase 1 fab in early 2027, with full-scale operation during the year. Micron's Idaho fab ID1 is on track for first wafer output in mid-2027, and its Tongluo fab in Taiwan for meaningful shipments at the same time.
+  [2] total-dram.csv:8 | Micron 2026-09-30 | Micron new fab start: Idaho ID1 wafer output | 2027 mid | 1 event | forecast
+      Q: Our ID1 fab is on track to commence wafer output in mid calendar 2027.
+      N: Timing only; no wafer capacity stated
+  [2] total-dram.csv:12 | Micron 2026-09-30 | Micron new fab start: Taiwan Tongluo (ex-PSMC) meaningful shipments | 2027 mid | 1 event | forecast
+      Q: In Taiwan, we are on track for meaningful product shipments from our Tongluo facility in mid calendar 2027.
+      N: Existing fab bought from Powerchip; FQ2 call said second similar-sized cleanroom construction to begin by 2026
+====================================================================================================
+CONTEXT: …uring the year. Micron's Idaho fab ID1 is on track for first wafer output in mid-2027, and its Tongluo fab in Taiwan for meaningful shipments at the same time. SK hynix's M15X reaches maximum capacity by the end of 2026, but it makes HBM4.
+  [13] total-dram.csv:494 | SK hynix 2026-07-29 | SK hynix M15X schedule | 2026 | pulled forward event | forecast
+      Q: we are pulling forward the mass production schedule for M15X
+      N: PULLED IN. Q3 call: full capacity by end-2026. Mirae (Dec 2025) put M15X 2026 addition at 40 kwpm
+  [16] hbm-gddr.csv:237 | SK hynix 2026-10-28 | m15x_ramp | 2026-12 | maximum capacity text | forecast
+      Q: ramp up M15X to maximum capacity by the end of the year to increase HBM4 production
+      N: M15X ~50 kwpm at full use (Korea JoongAng Daily).
+====================================================================================================
+CONTEXT: …output in mid-2027, and its Tongluo fab in Taiwan for meaningful shipments at the same time. SK hynix's M15X reaches maximum capacity by the end of 2026, but it makes HBM4. Samsung's P5 starts operations in 2028 on a secondary market report.
+  [17] total-dram.csv:555 | EconoTimes 2026-10-20 | Samsung Pyeongtaek status | 2026-10 | P1-P4 operating; P5 under construction text | actual
+      Q: after an Oct. 1 site inspection that Samsung's P1 through P4 production lines are operating and P5 is under construction.
+      N: Gyeonggi Province statement
+  [14] total-dram.csv:554 | vlsi.kr (secondary) 2026-10-30 | Samsung Pyeongtaek P5 start of operations | 2028 | pulled forward 2 years event | forecast
+      Q: the Pyeongtaek P5 line for advanced memory has been pulled forward by two years, to a 2028 start of operations
+      N: PULLED IN. Secondary market bulletin; a second fab accelerated alongside it. EconoTimes (2026-10-20): P1-P4 operating, P5 under construction
+====================================================================================================
+CONTEXT: …imum capacity by the end of 2026, but it makes HBM4. Samsung's P5 starts operations in 2028 on a secondary market report. Micron's second Idaho fab and its Hiroshima expansion start output in late 2028, and its first New York fab in 2030.
+  [2] total-dram.csv:9 | Micron 2026-09-30 | Micron new fab start: Idaho ID2 wafer output | 2028 late | 1 event | forecast
+      Q: ID2 is on track to commence wafer output in late calendar 2028.
+      N: Timing only
+  [2] total-dram.csv:11 | Micron 2026-09-30 | Micron new fab start: Japan (Hiroshima) DRAM expansion initial output | 2028 late | 1 event | forecast
+      Q: groundbreaking ceremony for our DRAM fab expansion in Japan, with initial output expected in late calendar 2028
+      N: Timing only; site is Hiroshima per earlier calls
+  [2] total-dram.csv:10 | Micron 2026-09-30 | Micron new fab start: New York fab 1 initial output | 2030 | 1 event | forecast
+      Q: concrete pour milestone for our first New York fab with initial wafer output expected in calendar 2030.
+      N: Timing only
+====================================================================================================
+CONTEXT: …t stated output; no company gives wafer capacity for these fabs. Lam Research told investors in October that cleanroom space and certain components limit the industry, and it expects wafer fab equipment spending for all chip types to pass $200 billion in 2027.
+  [92] supply-chain.csv:118 | Lam Research 2026-10-21 | industry constraint cited by Lam | 2026 | cleanroom space; component supply - | estimate
+      Q: Cleanroom space availability and supply chain constraints for certain components limiting
+      N: cat=all; slide continues: industry's ability to fully meet end demand
+  [92] supply-chain.csv:116 | Lam Research 2026-10-21 | WFE market size (Lam view) | 2026 | mid-150s USD billion | forecast
+      Q: WFE: CY26 mid-$150B range | Preliminary CY27 >$200B
+      N: cat=all; all segments, not DRAM only
+====================================================================================================
+CONTEXT: …anroom space and certain components limit the industry, and it expects wafer fab equipment spending for all chip types to pass $200 billion in 2027. Nvidia expects supply to remain a bottleneck at least through its fiscal year 2028, which ends in January 2028.
+  [93] hbm-gddr.csv:273 | NVIDIA (Q2 FY2027 call) 2026-08-26 | nvidia_revenue_growth_fy2028 | FY2028 | ~70 % | forecast
+      Q: we expect supply to remain a bottleneck at least through the end of fiscal year 2028.
+      N: Same call: 'We expect to grow revenue by approximately 70% in fiscal 2028. This is a supply - constrained outlook.' FY2028 ~ Feb 2027-Jan 2028.
+====================================================================================================
+CONTEXT: …ass $200 billion in 2027. Nvidia expects supply to remain a bottleneck at least through its fiscal year 2028, which ends in January 2028. 2027 is already booked Micron said in September that more than 75% of its 2027 output is committed.
+  [2] server-ddr5.csv:235 | Micron (earnings call) 2026-09-30 | micron_output_committed | 2027 | >75 % | actual
+      Q: 2027, more than 75% of our output is already committed for 2027.
+      N: SCA + non-SCA.
+====================================================================================================
+CONTEXT: …iscal year 2028, which ends in January 2028. 2027 is already booked Micron said in September that more than 75% of its 2027 output is committed. SK hynix has long-term agreements with 14 major customers covering more than 50% of its capacity for 2027 and 2028.
+  [16] total-dram.csv:558 | SK hynix 2026-10-28 | SK hynix LTA coverage of capacity | 2027-2028 | >50 % | actual
+      Q: The LTA volume secured to date corresponds to more than 50% of total production capacity for 2027 and 2028.
+      N: Yongin Phase 1 to enter full-scale operation in 2027; M15X at max capacity by end-2026
+  [16] server-ddr5.csv:237 | SK hynix 2026-10-28 | skhynix_lta_customers | 2026-10 | 14 customers | actual
+      Q: The company has currently signed LTAs with 14 major customers, including leading global cloud service providers (CSPs)
+      N: 
+====================================================================================================
+CONTEXT: …75% of its 2027 output is committed. SK hynix has long-term agreements with 14 major customers covering more than 50% of its capacity for 2027 and 2028. KB Securities estimates that customers have booked about 80% of Samsung's planned 2027 memory output.
+  [17] total-dram.csv:556 | EconoTimes (citing KB Securities) 2026-10-20 | Samsung 2027 memory output booked | 2027 | ~80 % | estimate
+      Q: Customers have booked about 80% of Samsung's planned 2027 memory output, KB Securities estimated.
+      N: Five-year agreements cover 70% of planned conventional DRAM and NAND output; all 2027 HBM committed
+====================================================================================================
+CONTEXT: …mates that customers have booked about 80% of Samsung's planned 2027 memory output. Micron's 26 strategic customer agreements carry $32 billion of customer commitments, and Micron held $12.7 billion of customer deposits at the end of its fiscal fourth quarter.
+  [2] server-ddr5.csv:233 | Micron (earnings call) 2026-09-30 | micron_customer_financial_commitments | 2026-09 | 32 USD bn | actual
+      Q: For the 26 signed SCAs and extensions, financial commitments from customers have increased to $32 billion
+      N: Mostly cash deposits.
+  [2] server-ddr5.csv:234 | Micron (earnings call) 2026-09-30 | micron_customer_cash_deposits_on_balance_sheet | 2026-09 | 12.7 USD bn | actual
+      Q: Customer cash deposits on our balance sheet at the end of fiscal Q4 were $12.7 billion.
+      N: $12.3B received in FQ4.
+====================================================================================================
+CONTEXT: … 2027 memory output. Micron's 26 strategic customer agreements carry $32 billion of customer commitments, and Micron held $12.7 billion of customer deposits at the end of its fiscal fourth quarter. Some agreements signed from 2Q26 include price ceilings.
+  [3] supply-chain.csv:108 | TrendForce 2026-08-25 | LTA price ceilings | from 2Q26 | ceilings present - | estimate
+      Q: Some long-term agreements (LTAs) signed from 2Q26 onward have included price ceilings that could limit further increases.
+      N: cat=all
+====================================================================================================
+CONTEXT: …ts fiscal fourth quarter. Some agreements signed from 2Q26 include price ceilings. Prices: slower rises, no falls TrendForce expected conventional DRAM contract prices to fall 8–13% in 1Q25. They rose 45–50% in 4Q25 and 93–98% in 1Q26.
+  [94] supply-chain.csv:2 | TrendForce 2024-12-30 | conventional DRAM contract price change | 1Q25 | -13 to -8 % QoQ | forecast
+      Q: Conventional DRAM prices are projected to drop by 8% to 13%.
+      N: cat=all; excludes HBM
+  [95] supply-chain.csv:12 | TrendForce 2026-02-26 | conventional DRAM contract price change | 4Q25 | 45 to 50 % QoQ | actual
+      Q: Conventional DRAM contract prices rose 45–50% QoQ
+      N: cat=all; TF estimate of the realized change, published after the quarter
+  [18] supply-chain.csv:18 | TrendForce 2026-06-01 | conventional DRAM contract price change | 1Q26 | 93 to 98 % QoQ | actual
+      Q: increased by approximately 93% to 98% QoQ.
+      N: cat=all; TF estimate of the realized change
+====================================================================================================
+CONTEXT: …/p> Prices: slower rises, no falls TrendForce expected conventional DRAM contract prices to fall 8–13% in 1Q25. They rose 45–50% in 4Q25 and 93–98% in 1Q26. TrendForce then expected 58–63% in 2Q26, 13–18% in 3Q26 and 10–15% in 4Q26 (Figure 8).
+  [96] supply-chain.csv:19 | TrendForce 2026-03-31 | conventional DRAM contract price change | 2Q26 | 58 to 63 % QoQ | forecast
+      Q: Conventional DRAM contract prices are projected to rise by 58–63% QoQ despite downside risks to end-market shipments.
+      N: cat=all; repeated in TF 2026-06-01; TF 2026-09-07 gives no realized 2Q26 figure
+  [97] supply-chain.csv:20 | TrendForce 2026-07-03 | conventional DRAM contract price change | 3Q26 | 13 to 18 % QoQ | forecast
+      Q: Conventional DRAM contract prices are forecast to rise 13–18% QoQ in 3Q26.
+      N: cat=all; repeated in TF 2026-09-07
+  [19] supply-chain.csv:21 | TrendForce 2026-09-30 | conventional DRAM contract price change | 4Q26 | 10 to 15 % QoQ | forecast
+      Q: Conventional DRAM contract prices are projected to grow 10–15% QoQ in 4Q26
+      N: cat=all; latest TF quarterly call
+====================================================================================================
+CONTEXT: …nd 93–98% in 1Q26. TrendForce then expected 58–63% in 2Q26, 13–18% in 3Q26 and 10–15% in 4Q26 (Figure 8). At the range midpoints, the index ends 2026 at nearly seven times its mid-2025 level.
+  [19] supply-chain.csv:22 | TrendForce 2026-09-30 | cumulative conventional DRAM contract price index 2Q25 to 4Q26 | 3Q25-4Q26 | 6.8 x (2Q25 level = 1) | derived
+      Q: Conventional DRAM contract prices are projected to grow 10–15% QoQ in 4Q26
+      N: cat=all; derived: product of TF range midpoints 1.125 (3Q25 fcst) x 1.475 (4Q25 act) x 1.955 (1Q26 act) x 1.605 (2Q26 fcst) x 1.155 (3Q26 fcst) x 1.125 (4Q26 fcst) = 6.77; mixes actual and forecast
+====================================================================================================
+CONTEXT: …ynix 5600 transaction price against the DRAMeXchange session average). No forecast in our sources expects prices to fall in 2027. TrendForce expects server DRAM contract prices to rise every quarter from the second half of 2026 through the second half of 2027.
+  [20] supply-chain.csv:213 | TrendForce 2026-07-09 | server DRAM price path | 2H26-2H27 | rising each quarter - | forecast
+      Q: continue rising quarterly from the second half of 2026 through the second half of 2027
+      N: cat=server-ecc; gains may slow; a server DRAM shortage is already anticipated for 2027
+====================================================================================================
+CONTEXT: … to fall in 2027. TrendForce expects server DRAM contract prices to rise every quarter from the second half of 2026 through the second half of 2027. Omdia's forecast, reproduced by IBK in May, has the 64 GB RDIMM flat at about $1,130 in the first half of 2027.
+  [21] server-ddr5.csv:168 | IBK Securities (Omdia data) 2026-05 | rdimm_64gb_ddr5_price | 1Q27 | 1130 USD/module | forecast
+      Q: 1Q26 2Q26(F) 3Q26(F) 4Q26(F) 1Q27(F) 2Q27(F) ... 64GB DDR5 $766 $1,035 $1,086 $1,119 $1,130 $1,130
+      N: Omdia contract ASP table reproduced by IBK (표 1, p.10). pub_date approximate (chart through 26.5; Omdia Apr-2026 monthly).
+====================================================================================================
+CONTEXT: … of 2027. DDR4: the oldest product, the sharpest rise Samsung, SK hynix and Micron announced the end of mainstream DDR4 in 2025. Samsung stopped taking orders in June 2025, Micron's final shipments ended in 1Q26, and SK hynix completes shipments in April 2026.
+  [98] server-ddr5.csv:139 | TrendForce (news, citing Commercial Times) 2025-07-09 | eol_last_order | 2025-06 | Samsung date | actual
+      Q: Samsung is leading the transition, set to stop taking DDR4 orders by June 2025 and wrap up shipments by mid-December.
+      N: Later partly delayed via an NCNR contract for a server customer (Tom's Hardware headline).
+  [98] server-ddr5.csv:140 | TrendForce (news, citing Commercial Times) 2025-07-09 | eol_final_shipment | 1Q26 | Micron date | actual
+      Q: notified customers in June that DDR4 is entering end-of-life, with final shipments ending in Q1 2026.
+      N: Mainstream DDR4; long-life DDR4 continues at Fab 6 (Manassas).
+  [98] server-ddr5.csv:141 | TrendForce (news, citing Commercial Times) 2025-07-09 | eol_final_shipment | 2026-04 | SK hynix date | actual
+      Q: plans to stop orders in October 2025 and complete shipments by April 2026.
+      N: 
+====================================================================================================
+CONTEXT: …ounced the end of mainstream DDR4 in 2025. Samsung stopped taking orders in June 2025, Micron's final shipments ended in 1Q26, and SK hynix completes shipments in April 2026. The model has DDR4 modules falling from 11.7 bn Gb in 2026 to 6.4 bn Gb in 2027.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: … The model has DDR4 modules falling from 11.7 bn Gb in 2026 to 6.4 bn Gb in 2027. The weekly average spot price of an 8 Gb DDR4 chip went from $1.458 in February 2025 to $46.357 in October 2026, about 32 times higher.
+  [99] supply-chain.csv:62 | TrendForce 2025-02-05 | DDR4 8Gb 1Gx8 3200 weekly average spot | 2025-02-05 week | 1.458 USD per chip | actual
+      Q: The average spot price of mainstream chips (i.e., DDR4 1Gx8 3200MT/s) has stayed at US$1.458 this week.
+      N: cat=ddr4; trough; DDR4 spot sliding because of CXMT supply
+  [100] supply-chain.csv:73 | TrendForce 2026-10-21 | DDR4 8Gb 1Gx8 3200 weekly average spot | 2026-10-20 | 46.357 USD per chip | actual
+      Q: has risen by 0.84% to US$46.357 this week (October 20).
+      N: cat=ddr4; same release: For DDR5, supply remains tight and suppliers are clearly reluctant to sell.
+  [100] supply-chain.csv:83 | TrendForce 2026-10-21 | DDR4 8Gb weekly spot multiple, Feb 2025 to Oct 2026 | 2025-02-05 to 2026-10-20 | 31.8 x | derived
+      Q: has risen by 0.84% to US$46.357 this week (October 20).
+      N: cat=ddr4; derived: 46.357 / 1.458 (2025-02-05 week) = 31.8
+====================================================================================================
+CONTEXT: ….csv]] The weekly average spot price of an 8 Gb DDR4 chip went from $1.458 in February 2025 to $46.357 in October 2026, about 32 times higher. On 30 October a 16 Gb DDR4 chip traded at $82.80 on average, more than the $61.50 for a 16 Gb DDR5 chip.
+  [101] supply-chain.csv:76 | TrendForce 2026-10-30 | DDR4 16Gb 2Gx8 3200 spot session average | 2026-10-30 | 82.796 USD per chip | actual
+      Q: DDR4 16Gb (2Gx8) 3200 | 116.00 | 45.60 | 116.00 | 45.60 | 82.796 | ▼ -0.15 %
+      N: cat=ddr4; DDR4 16Gb spot is above DDR5 16Gb spot
+  [101] supply-chain.csv:74 | TrendForce 2026-10-30 | DDR5 16Gb 2Gx8 4800/5600 spot session average | 2026-10-30 | 61.50 USD per chip | actual
+      Q: DDR5 16Gb (2Gx8) 4800/5600 | 73.00 | 47.30 | 73.00 | 47.30 | 61.50 | ▲ 0.27 %
+      N: cat=ddr5; daily high 73.00, low 47.30
+====================================================================================================
+CONTEXT: … times higher. On 30 October a 16 Gb DDR4 chip traded at $82.80 on average, more than the $61.50 for a 16 Gb DDR5 chip. TrendForce expected DDR2 contract prices to rise 55–60% in 2Q26 and another 35–40% in 3Q26.
+  [102] supply-chain.csv:41 | TrendForce 2026-06-22 | DDR2 contract price change | 2Q26 | 55 to 60 % QoQ | estimate
+      Q: Following strong gains in 1Q26, TrendForce estimates DDR2 contract prices will rise by approximately 55–60% in 2Q26
+      N: cat=ddr4; legacy; OEMs downgrade DDR4 to DDR3 and DDR3 to DDR2
+  [102] supply-chain.csv:42 | TrendForce 2026-06-22 | DDR2 contract price change | 3Q26 | 35 to 40 % QoQ | forecast
+      Q: followed by a further 35–40% increase in 3Q26.
+      N: cat=ddr4; legacy
+====================================================================================================
+CONTEXT: …traded at $82.80 on average, more than the $61.50 for a 16 Gb DDR5 chip. TrendForce expected DDR2 contract prices to rise 55–60% in 2Q26 and another 35–40% in 3Q26. Counterpoint expects LPDDR4 supply to fall more than 40% this year.
+  [66] lpddr.csv:80 | Counterpoint 2026-06-01 | lpddr4_supply_change | 2026 | -40 % YoY | forecast
+      Q: LPDDR4 supply is expected to decline more than 40% in 2026
+      N: 'more than 40%'.
+====================================================================================================
+CONTEXT: …pected DDR2 contract prices to rise 55–60% in 2Q26 and another 35–40% in 3Q26. Counterpoint expects LPDDR4 supply to fall more than 40% this year. How long it lasts Micron expects supply-demand conditions to be "much tighter" in 2027 and 2028.
+  [103] supply-chain.csv:207 | Micron 2026-09-30 | Micron view of 2027-2028 tightness | 2027-2028 | much tighter than 2026 - | forecast
+      Q: We expect memory and storage supply-demand conditions to be much tighter in calendar 2027 and 2028
+      N: cat=all; we do not have line of sight to when supply and demand will return to balance
+====================================================================================================
+CONTEXT: …nterpoint expects LPDDR4 supply to fall more than 40% this year. How long it lasts Micron expects supply-demand conditions to be "much tighter" in 2027 and 2028. Samsung expects tight supply into 2028, and SK hynix expects demand to exceed supply through 2030.
+  [22] total-dram.csv:485 | Samsung Electronics 2026-10-29 | supply constraint horizon | 2028 | tight into 2028 text | forecast
+      Q: tight supply conditions are expected to continue into 2028.
+      N: Samsung 2027 HBM supply sold out; HBM4E mass production 1H27
+  [16] supply-chain.csv:209 | SK hynix 2026-10-28 | SK hynix view on demand exceeding supply | to 2030 | persists through 2030 - | forecast
+      Q: it expects the structure in which demand exceeds supply to persist through 2030
+      N: cat=all
+====================================================================================================
+CONTEXT: …n expects supply-demand conditions to be "much tighter" in 2027 and 2028. Samsung expects tight supply into 2028, and SK hynix expects demand to exceed supply through 2030. Lenovo sees high memory prices as a possible "new normal" into 2030 and beyond.
+  [104] supply-chain.csv:173 | TrendForce 2026-06-26 | Lenovo view on memory prices | to 2030 | new normal into 2030 - | forecast
+      Q: sees higher memory pricing as potentially settling into a 'new normal' well into 2030 and beyond.
+      N: cat=all; Lenovo ISC 2026 slide via Wccftech/Computer Base; assumes new capacity from ~2028
+====================================================================================================
+CONTEXT: …emory prices as a possible "new normal" into 2030 and beyond. The one dissent in our sources is Omdia's December 2025 warning that new HBM and DRAM capacity could bring oversupply by 2028, a view that predates the 2026 price spike and the long-term agreements.
+  [105] total-dram.csv:470 | Omdia 2025-12-05 | oversupply risk | 2028 | risk text | forecast
+      Q: New HBM/DRAM capacity could lead to oversupply by 2028.
+      N: Depends on ramp of Samsung P4/P5, SK hynix Yongin, Micron Boise, CXMT
+====================================================================================================
+CONTEXT: …TS --> Signposts What to watch in the next two quarters January 2027Fourth-quarter bit shipments Samsung guided fourth-quarter DRAM bit growth in the mid-to-high teens percent and SK hynix in the mid-20s.
+  [22] total-dram.csv:480 | Samsung Electronics 2026-10-29 | Samsung DRAM bit shipment growth QoQ | 2026Q4 | mid to high teens % | forecast
+      Q: we expect QoQ bit growth to increase by mid to high teen percentage for DRAM, and mid-teens increase for NAND
+      N: 
+  [106] total-dram.csv:127 | SK hynix 2026-10-27 | SK hynix DRAM bit shipment growth QoQ | 2026Q4 | mid-20s % | forecast
+      Q: fourth quarter shipment volume is expected to grow meaningfully by mid-20% sequentially.
+      N: Q3 2026 bit shipments up approx 10% QoQ
+====================================================================================================
+CONTEXT: …class="when">January 2027Fourth-quarter bit shipments Samsung guided fourth-quarter DRAM bit growth in the mid-to-high teens percent and SK hynix in the mid-20s. The model turns these into an industry total of about 109.7 bn Gb for 4Q26, up 21% on the quarter.
+  [107] M:quarterly_2026.csv
+====================================================================================================
+CONTEXT: …26, up 21% on the quarter. A miss would point to slower node migration. Early January 2027The 1Q27 contract price call TrendForce, as cited by Goldman Sachs, expects mobile LPDDR5X to rise 13–18% in 1Q27; CFM expects more than 20%.
+  [76] lpddr.csv:163 | TrendForce (cited by Goldman Sachs, via Tiger Brokers) 2026-10-01 | lpddr5x_contract_qoq | 2027Q1 | 15.5 % QoQ (13-18%) | forecast
+      Q: the mobile side will regain momentum, with LPDDR5X and LPDDR4X forecast to rise 13%-18% and 5%-10% QoQ, respectively
+      N: Midpoint. Secondary source.
+  [108] lpddr.csv:165 | CFM (MemoryMarket) 2026-10-10 | lpddr5x_contract_qoq | 2027Q1 | 20 % QoQ (more than) | forecast
+      Q: Mobile LPDDR5X prices are expected to surge by more than 20% in 2027Q1.
+      N: Lower bound. Higher than TrendForce 13-18%.
+====================================================================================================
+CONTEXT: … call for conventional DRAM would be the first sign that lost consumer demand is catching up with supply. 1Q27Nvidia's memory configurations Watch the final HBM configuration for Rubin Ultra and how much SOCAMM each Vera CPU ships with after the June cut.
+  [50] hbm-gddr.csv:252 | TrendForce 2026-08-04 | rubin_ultra_hbm_config_review | 2027 | 8-Hi HBM4e / 12-Hi HBM4 / 8-Hi HBM4 under evaluation text | forecast
+      Q: beginning in early 3Q26, the company started evaluating lower-specification alternatives.
+      N: Baseline was 12-Hi HBM4e through 1H26. Lower configs cut GB per Rubin Ultra.
+  [5] lpddr.csv:177 | TrendForce 2026-06-10 | vera_socamm_capacity_cut | 2026-06 | 50 % cut in SOCAMM capacity per Vera Rubin module | actual
+      Q: has decided to halve the SOCAMM memory capacity of its next-generation Vera Rubin Superchip modules
+      N: Due to insufficient 2027 LPDRAM allocation. Meritz: 96GB module orders may rise ~6x; total SOCAMM2 demand +10-20% (search summary only).
+====================================================================================================
+CONTEXT: …ns shrink the HBM and server LPDDR gaps on paper. 1Q27HBM4E stack heights and the trade ratio The trade ratio is the largest swing factor for the 2027 HBM gap in our model. Moving it from its low to its high case shifts HBM sufficiency by about 25 points.
+  [12] M:sensitivity.csv
+====================================================================================================
+CONTEXT: …actor for the 2027 HBM gap in our model. Moving it from its low to its high case shifts HBM sufficiency by about 25 points. TrendForce expects 8-high HBM to carry a 10–20% premium per gigabit over 12-high in 2027, so the stack mix moves prices as well as bits.
+  [31] hbm-gddr.csv:135 | TrendForce 2026-09-29 | 8hi_price_premium_per_gb_vs_12hi | 2027 | 10-20 % | forecast
+      Q: TrendForce expects 8-Hi products to carry a roughly 10–20% price premium per Gb over 12-Hi products in 2027.
+      N: Vendors may move from 12-Hi to 8-Hi in 2027, cutting HBM GB per device.
+====================================================================================================
+CONTEXT: … HBM to carry a 10–20% premium per gigabit over 12-high in 2027, so the stack mix moves prices as well as bits. 1Q–2Q27New fabs on schedule Yongin should open its cleanroom in early 2027, and ID1 and Tongluo should produce by mid-2027.
+  [13] total-dram.csv:495 | SK hynix 2026-07-29 | SK hynix Yongin Phase 1 cleanroom opening | 2027 early | 1 event | forecast
+      Q: following the clean room opening of the Yongin Phase 1 in early 2027
+      N: Q3 call: shell construction accelerated; cleanrooms open in phases
+  [2] total-dram.csv:8 | Micron 2026-09-30 | Micron new fab start: Idaho ID1 wafer output | 2027 mid | 1 event | forecast
+      Q: Our ID1 fab is on track to commence wafer output in mid calendar 2027.
+      N: Timing only; no wafer capacity stated
+  [2] total-dram.csv:12 | Micron 2026-09-30 | Micron new fab start: Taiwan Tongluo (ex-PSMC) meaningful shipments | 2027 mid | 1 event | forecast
+      Q: In Taiwan, we are on track for meaningful product shipments from our Tongluo facility in mid calendar 2027.
+      N: Existing fab bought from Powerchip; FQ2 call said second similar-sized cleanroom construction to begin by 2026
+====================================================================================================
+CONTEXT: …ip moves 2027 supply by only a few bn Gb in the model, but a slip at Yongin or ID1 would push 2028 relief later. OngoingCXMT and China TrendForce reported in October that CXMT ships HBM3E samples and eyes production within two months, at yields of 20–30%.
+  [109] supply-chain.csv:142 | TrendForce 2026-10-28 | CXMT HBM3E yield | 2026-10 | 20 to 30 % yield | estimate
+      Q: CXMT's HBM3E yields currently stand at just 20% to 30%, well below the approximately 70%
+      N: cat=hbm; Reuters via TF; limited production expected within two months; products could reach market in 2027
+====================================================================================================
+CONTEXT: …">OngoingCXMT and China TrendForce reported in October that CXMT ships HBM3E samples and eyes production within two months, at yields of 20–30%. Samsung's and SK hynix's China fabs rely on a yearly US approval for tool shipments, last granted in December 2025.
+  [110] supply-chain.csv:145 | TrendForce 2026-10-15 | US approval for tools to Samsung/SK hynix China fabs | 2026 | annual approval granted Dec 2025 - | actual
+      Q: In December 2025, Washington granted annual approval for U.S. chipmaking equipment shipments
+      N: cat=all; VEU-type authorizations revoked Sep 2025; 2027 approval not yet issued; no capacity add allowed
+====================================================================================================
+CONTEXT: …al for tool shipments, last granted in December 2025. OngoingPhone and PC units Counterpoint expects smartphone chip shipments to fall another 3–4% in 2027, and TrendForce expects notebooks to fall by a low single-digit percentage.
+  [75] lpddr.csv:183 | Counterpoint 2026-10-30 | soc_shipments_yoy | 2027 | -3.5 % YoY (3-4% decline) | forecast
+      Q: Global smartphone SoC shipments are expected to decline by 20% YoY in 2026 and another 3%-4% YoY in 2027.
+      N: Latest dated 2027 unit signal found (Oct 30 2026). SoC units proxy phone units.
+  [111] server-ddr5.csv:257 | TrendForce 2026-10-08 | notebook_shipments_growth_yoy | 2027 | low-single-digit decline % | forecast
+      Q: Global notebook shipments are currently projected to decline by a low-single-digit percentage in 2027.
+      N: High-single-digit decline if costs fully passed through.
+====================================================================================================
+CONTEXT: …centage. A rebound would tighten every segment. Risks What would change the picture The model's 2027 range spans about 94 bn Gb, more than all the HBM the industry makes in 2026 and 2027 combined.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: … more than all the HBM the industry makes in 2026 and 2027 combined. A few inputs drive most of it. Toward relief Faster node migration is the biggest lever. At the high end of its range it adds about 24 bn Gb to 2027 supply-model output.
+  [12] M:sensitivity.csv
+====================================================================================================
+CONTEXT: …Gb to 2027 supply-model output. A deeper fall in phone and PC demand would free bits for other buyers, and further cuts in AI memory configurations would lower demand at the top of the queue. If the 2028 fabs ramp fast, Omdia's oversupply warning could return.
+  [105] total-dram.csv:470 | Omdia 2025-12-05 | oversupply risk | 2028 | risk text | forecast
+      Q: New HBM/DRAM capacity could lead to oversupply by 2028.
+      N: Depends on ramp of Samsung P4/P5, SK hynix Yongin, Micron Boise, CXMT
+====================================================================================================
+CONTEXT: …ramp fast, Omdia's oversupply warning could return. Toward a tighter 2027 A higher HBM trade ratio would cut HBM output and total bits. At the top of its range it takes the model's HBM gap to about −22% and trims about 7 bn Gb from 2027 supply-model output.
+  [12] M:sensitivity.csv
+====================================================================================================
+CONTEXT: … demand comes from different sources; in 2027 the bucket demand figures add up to about 491 bn Gb against a total demand of 462.1 bn Gb, so gaps rank segments and do not sum to the total gap. Source for every number: model output, out/forecast_by_category.csv.
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …ow the model works The 2026 total. The model starts from Mirae Asset's estimate of 293.1 bn Gb of 2025 production, with a 3% error, and grows it by a range of 20–27% taken from company and analyst views published since June 2026, centred on Micron's "mid-20s".
+  [33] M:METHOD.md
+====================================================================================================
+CONTEXT: …to six families by growing Mirae's 2025 lines with the latest unit and content forecasts. HBM and server LPDDR come from pooled published estimates. Every uncertain input is a probability range, and every interval in this report comes from 50,000 seeded draws.
+  [33] M:METHOD.md
+====================================================================================================
+CONTEXT: …tal: three forecasts combined. The first is a time-series forecast. In a backtest of six models over 2016–2025, the simplest, which assumes next year grows like this year, had the lowest average error, 6.3% against 8.9% for an automatically fitted ARIMA model.
+  [112] M:backtest.csv
+====================================================================================================
+CONTEXT: …nce, with noise matched to how wrong past guidance has been. The three give medians of +24.1%, +22.0% and +22.4%. Equal weights give +22.6%, with an 80% range of +12.1% to +35.0%; weighting by spread would give +22.2%, but the supply model has no track record.
+  [113] M:combination_2027.csv
+====================================================================================================
+CONTEXT: …r TrendForce. Server ECC follows at TrendForce's RDIMM supply guide of +15–20%, capped by Mirae's demand growth. Phones, tablets, PCs, graphics, auto and other consumer devices share what remains in proportions that follow their own unit and content forecasts.
+  [33] M:METHOD.md
+====================================================================================================
+CONTEXT: …C share of DDR5 and the GDDR series have no direct source, and 2027 memory per phone is an assumption. No source says whether Mirae counts Nvidia's server LPDDR in its server or its mobile line, so the model draws that split at random and counts the bits once.
+  [33] M:METHOD.md
+====================================================================================================
+CONTEXT: …ates Mirae for the latest server unit forecasts, HBM demand comes from UBS, server LPDDR need from Meritz and Edgewater, and phone and PC demand from Mirae's pre-shock view. The segments add up to more than total demand (about 491 against 462.1 bn Gb in 2027).
+  [1] M:forecast_by_category.csv
+====================================================================================================
+CONTEXT: …. The fit keeps the model's totals and moves those bits into server ECC and LPDDR, so the Nanya and others row holds mostly DDR4 and LPDDR4. Taking the Samsung–SK hynix split from Mirae's shipment pages instead moves their server ECC shares by about one point.
+  [33] M:METHOD.md
+  [32] M:vendor_by_type.csv
+====================================================================================================
+CONTEXT: …r server ECC shares by about one point. Checks. The model's 2026 share for HBM plus server ECC is 52.3%, against TrendForce's 51%. Its 2026 server LPDDR is 23.3 bn Gb, against Meritz's 24. Its 2027 HBM growth of 61% sits just above TrendForce's 50–60% range.
+  [45] M:checks.csv

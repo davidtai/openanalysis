@@ -1,0 +1,21 @@
+year,growth_pct,source,y
+2006,52.0,Micron 2011 (avg Gartner/IDC/iSuppli),0.41871
+2007,87.0,Micron 2011 (avg Gartner/IDC/iSuppli),0.62594
+2008,63.0,Micron 2011 (avg Gartner/IDC/iSuppli),0.48858
+2009,22.0,Micron 2011 (avg Gartner/IDC/iSuppli),0.19885
+2010,48.0,KDB Daewoo 2012,0.39204
+2011,39.0,KDB Daewoo 2012,0.3293
+2012,28.6,DRAMeXchange via Mirae 2020,0.25154
+2013,26.6,DRAMeXchange via Mirae 2020,0.23586
+2014,34.1,DRAMeXchange via Mirae 2020,0.29342
+2015,22.8,DRAMeXchange via Mirae 2020,0.20539
+2016,23.7,DRAMeXchange via Mirae 2020,0.21269
+2017,19.9,DRAMeXchange via Mirae 2020,0.18149
+2018,21.0,DRAMeXchange via Mirae 2020,0.19062
+2019,19.0,DRAMeXchange via Mirae 2020,0.17395
+2020,18.18082,derived: benchmarked to Mirae supply levels,0.16705
+2021,23.39018,derived: benchmarked to Mirae supply levels,0.21018
+2022,14.29934,derived: benchmarked to Mirae supply levels,0.13365
+2023,-4.4,Mirae Dec 2025,-0.045
+2024,17.3,Mirae Dec 2025,0.15956
+2025,24.7,Mirae Dec 2025,0.22074

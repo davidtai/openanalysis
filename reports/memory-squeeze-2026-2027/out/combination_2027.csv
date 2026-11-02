@@ -1,0 +1,6 @@
+component,growth_median_pct,growth_p10_pct,growth_p90_pct,sd_log,level_2027_median_bn_gb,weight_used,weight_inverse_variance
+time_series_naive,24.1044,10.1339,40.0161,0.0937,451.1748,0.3333,0.1308
+supply_model,22.0142,16.2264,29.2202,0.0404,445.0637,0.3333,0.7042
+guidance,22.4115,9.9937,36.2049,0.0834,444.9087,0.3333,0.1651
+"combined (equal weights, linear pool)",22.582,12.1182,35.0246,0.0763,446.4024,1.0,
+"combined (inverse-variance weights, check)",22.1775,14.8636,31.2579,0.0587,445.5191,,1.0

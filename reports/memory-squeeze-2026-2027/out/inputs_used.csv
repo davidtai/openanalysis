@@ -1,0 +1,251 @@
+file,row,segment,metric,period,value,unit,kind,publisher,pub_date,url
+hbm-gddr.csv,15,hbm,share_of_dram_wafers,2026-03,15,%,estimate,"Applied Materials (CFO Bryce Hill, via The Elec)",2026-03-17,https://www.thelec.net/news/articleView.html?idxno=5886
+hbm-gddr.csv,17,hbm,demand_bits,2023,2.32,billion Gb,derived,TrendForce,2023-06-28,https://www.trendforce.com/presscenter/news/20230628-11734.html
+hbm-gddr.csv,26,hbm,shipments_bits,2026,>30,billion Gb,forecast,TrendForce,2025-05-22,https://www.trendforce.com/presscenter/news/20250522-12589.html
+hbm-gddr.csv,27,hbm,shipments_bits,2024,1182,million GB,estimate,Marc Greenberg (FMS 2024; data likely Yole),2024-08-05,https://files.futurememorystorage.com/proceedings/2024/20240805_PDSC2_Intro_to_HBM_Greenberg.pdf
+hbm-gddr.csv,29,hbm,end_demand_bits,2026,32.9,billion Gb,forecast,UBS (via Investing.com),2026-05-13,https://www.investing.com/news/stock-market-news/ubs-says-samsung-to-reach-market-share-parity-for-hbm-with-sk-hynix-by-2027-4684487
+hbm-gddr.csv,30,hbm,end_demand_bits,2027,58.0,billion Gb,forecast,UBS (via Investing.com),2026-05-13,https://www.investing.com/news/stock-market-news/ubs-says-samsung-to-reach-market-share-parity-for-hbm-with-sk-hynix-by-2027-4684487
+hbm-gddr.csv,31,hbm,end_demand_bits,2025,17.5,billion Gb,derived,UBS (via Investing.com),2026-05-13,https://www.investing.com/news/stock-market-news/ubs-says-samsung-to-reach-market-share-parity-for-hbm-with-sk-hynix-by-2027-4684487
+hbm-gddr.csv,36,hbm,bit_share_by_vendor,2027,SKH ~40 / Samsung ~40 / Micron ~20,%,forecast,UBS (via Investing.com),2026-05-13,https://www.investing.com/news/stock-market-news/ubs-says-samsung-to-reach-market-share-parity-for-hbm-with-sk-hynix-by-2027-4684487
+hbm-gddr.csv,38,hbm-samsung,shipments_bits,2024,5.1,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+hbm-gddr.csv,39,hbm-samsung,shipments_bits,2025,5.0,billion Gb,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+hbm-gddr.csv,40,hbm-samsung,shipments_bits,2026,11.6,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+hbm-gddr.csv,41,hbm-samsung,shipments_bits,2027,16.9,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+hbm-gddr.csv,42,hbm-skhynix,shipments_bits,2024,6.1,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+hbm-gddr.csv,43,hbm-skhynix,shipments_bits,2025,12.4,billion Gb,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+hbm-gddr.csv,44,hbm-skhynix,shipments_bits,2026,16.1,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+hbm-gddr.csv,45,hbm-skhynix,shipments_bits,2027,18.5,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+hbm-gddr.csv,56,hbm,tsv_share_of_dram_capacity,2024-12,14,%,forecast,TrendForce,2024-03-18,https://www.trendforce.com/presscenter/news/20240318-12081.html
+hbm-gddr.csv,67,hbm,wafer_production,2024,151,kwpm,forecast,Yole Group (via Edge AI and Vision Alliance),2024-02-13,https://www.edge-ai-vision.com/2024/02/generative-ai-high-performance-computing-to-fuel-high-bandwidth-memory-market-growth/
+hbm-gddr.csv,77,hbm-skhynix,m15x_wafer_capacity,2027-06,50,kwpm,forecast,Korea JoongAng Daily,2026-01-04,https://www.koreajoongangdaily.com/business/samsung-sk-hynix-dramatically-scaling-up-hbm-production-to-meet-rising-demand-recent-nvidia-deals/12391367
+hbm-gddr.csv,78,hbm-cxmt,hbm_wafer_capacity,2025-12,5,kwpm,estimate,SemiAnalysis,2026-06-23,https://newsletter.semianalysis.com/p/chinas-cxmt-is-set-to-challenge-dram
+hbm-gddr.csv,79,hbm-cxmt,hbm_wafer_capacity,2026-12,30,kwpm,forecast,SemiAnalysis,2026-06-23,https://newsletter.semianalysis.com/p/chinas-cxmt-is-set-to-challenge-dram
+hbm-gddr.csv,80,hbm-cxmt,hbm_wafer_capacity,2027-12,55,kwpm,forecast,SemiAnalysis,2026-06-23,https://newsletter.semianalysis.com/p/chinas-cxmt-is-set-to-challenge-dram
+hbm-gddr.csv,84,hbm,wafer_trade_ratio_vs_ddr5,2025,3,x,actual,Micron (FQ1 2026 call),2025-12-17,https://www.fool.com/earnings/call-transcripts/2025/12/17/micron-mu-q1-2026-earnings-call-transcript/
+hbm-gddr.csv,85,hbm,wafer_trade_ratio_vs_ddr5,2027,>3 (rising with HBM4/HBM4E),x,forecast,Micron (FQ4 2026 call),2026-09-30,https://www.fool.com/earnings/call-transcripts/2026/10/01/micron-mu-q4-2026-earnings-call-transcript/
+hbm-gddr.csv,86,hbm,wafer_area_ratio_vs_conventional,2026,3,x,estimate,Applied Materials (via The Elec),2026-03-17,https://www.thelec.net/news/articleView.html?idxno=5886
+hbm-gddr.csv,87,hbm,wafer_ratio_vs_standard_dram,2026,3-4,x,estimate,Goldman Sachs (via Tiger Brokers),2026-06-01,https://www.itiger.com/news/1117469753
+hbm-gddr.csv,117,hbm,supply_demand_gap,2027,-6.0,%,forecast,Goldman Sachs (via Tiger Brokers/Deep News),2026-06-01,https://www.itiger.com/news/1117469753
+hbm-gddr.csv,123,hbm,revenue_share_SKH/Samsung/Micron,2025Q2,64/15/21,%,actual,Counterpoint Research,2026-09-02,https://counterpointresearch.com/en/insights/global-dram-and-hbm-market-share
+hbm-gddr.csv,124,hbm,revenue_share_SKH/Samsung/Micron,2025Q3,56/23/21,%,actual,Counterpoint Research,2026-09-02,https://counterpointresearch.com/en/insights/global-dram-and-hbm-market-share
+hbm-gddr.csv,125,hbm,revenue_share_SKH/Samsung/Micron,2025Q4,57/22/21,%,actual,Counterpoint Research,2026-09-02,https://counterpointresearch.com/en/insights/global-dram-and-hbm-market-share
+hbm-gddr.csv,126,hbm,revenue_share_SKH/Samsung/Micron,2026Q1,58/21/21,%,actual,Counterpoint Research,2026-09-02,https://counterpointresearch.com/en/insights/global-dram-and-hbm-market-share
+hbm-gddr.csv,127,hbm,revenue_share_SKH/Samsung/Micron,2026Q2,50/33/18,%,actual,Counterpoint Research,2026-09-02,https://counterpointresearch.com/en/insights/global-dram-and-hbm-market-share
+hbm-gddr.csv,149,accelerator,hbm_per_package_RubinUltra,2027,1024,GB,forecast,NVIDIA (GTC 2025 keynote),2025-03-18,https://s201.q4cdn.com/141608511/files/doc_downloads/2025/03/GTC2025_Keynote.pdf
+hbm-gddr.csv,150,accelerator,hbm_per_package_RubinUltra_ubs,2027,768,GB,forecast,UBS (via Investing.com),2026-05-13,https://www.investing.com/news/stock-market-news/ubs-says-samsung-to-reach-market-share-parity-for-hbm-with-sk-hynix-by-2027-4684487
+hbm-gddr.csv,151,accelerator,hbm_per_gpu_RubinUltra_tf,2027,384,GB,forecast,TrendForce,2026-06-02,https://www.trendforce.com/presscenter/news/20260602-13074.html
+hbm-gddr.csv,158,accelerator,hbm_per_chip_TPU_8t_8i,2026,216/288,GB,actual,Mirae Asset Securities,2026-05-07,https://img.securities.miraeasset.com/ezrlink/report/183/20260507085312437_en.pdf
+hbm-gddr.csv,159,accelerator,hbm_per_chip_Trainium3,2025,144,GB,actual,AWS,2025-12-02,https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
+hbm-gddr.csv,215,gddr,aib_market_forecast,2026,~-10,%,forecast,Jon Peddie Research,2026-03-05,https://www.jonpeddie.com/news/q425-pc-graphics-aib-shipments-decreased-4-4-from-last-quarter-to-11-million-units-with-a-cagr-to-2029-of-5-9/
+hbm-gddr.csv,248,hbm,bit_shipment_growth,2027,50-60,%,forecast,TrendForce,2026-08-04,https://www.trendforce.com/presscenter/news/20260804-13166.html
+hbm-gddr.csv,250,accelerator,rubin_ultra_hbm_config_review,2027,8-Hi HBM4e / 12-Hi HBM4 / 8-Hi HBM4 under evaluation,text,forecast,TrendForce,2026-08-04,https://www.trendforce.com/presscenter/news/20260804-13166.html
+hbm-gddr.csv,274,accelerator,tpu_shipments,2026,4.13,million units,forecast,UBS (via The Buildout),2026-05-18,https://thebuildout.ai/intel/3bd003a5-04eb-44ba-ad8b-17129845d8a3
+hbm-gddr.csv,275,accelerator,tpu_shipments,2027,9.87,million units,forecast,UBS (via The Buildout),2026-05-18,https://thebuildout.ai/intel/3bd003a5-04eb-44ba-ad8b-17129845d8a3
+hbm-gddr.csv,276,accelerator,trainium3_shipments,2026,1.8,million units,forecast,UBS (via Money Weekly/Cnyes),2026-09-03,https://news.cnyes.com/news/print/6593717
+hbm-gddr.csv,277,accelerator,trainium3_shipments,2027,2.8,million units,forecast,UBS (via Money Weekly/Cnyes),2026-09-03,https://news.cnyes.com/news/print/6593717
+hbm-gddr.csv,282,accelerator,hbm_bottom_up_tpu_trainium,2026,8.4,billion Gb,derived,UBS / Google / AWS,2026-05-18,https://thebuildout.ai/intel/3bd003a5-04eb-44ba-ad8b-17129845d8a3
+hbm-gddr.csv,283,accelerator,hbm_bottom_up_nvidia,2026,~10-12,billion Gb,derived,Morgan Stanley / NVIDIA / TrendForce,2025-07-31,https://www.semimedia.cc/nvidia-expected-to-take-60-of-cowos-wafer-supply-by-2026-tsmc-to-expand-packaging-in-u-s/
+hbm-gddr.csv,284,gddr,rtx50_supply_cut_to_partners,2026-01,15-20,%,estimate,TechTimes (citing leaker MEGAsizeGPU via Tom's Hardware),2026-06-21,https://www.techtimes.com/articles/318772/20260621/nvidia-rtx-50-gpu-shortage-supply-cut-20-prices-climbing-no-desktop-refresh-confirmed.htm
+hbm-gddr.csv,289,gddr,rubin_cpx_status,2026-03,removed from roadmap at GTC 2026,text,actual,Tom's Hardware,2026-03,https://www.tomshardware.com/pc-components/gpus/nvidia-removes-rubin-cpx-accelerators-from-its-roadmap-groq-3-lpus-take-center-stage-as-cpx-is-removed
+hbm-gddr.csv,290,hbm,share_of_global_dram_wafers,2026-10,~20,%,estimate,"Samsung (Kim Tae-woo, via Seoul Economic Daily)",2026-10-01,https://en.sedaily.com/finance/2026/10/01/hbm-prices-to-more-than-double-next-year-as-shortage
+hbm-gddr.csv,291,hbm,share_of_global_dram_wafers,2027,~30,%,forecast,"Samsung (Kim Tae-woo, via Seoul Economic Daily)",2026-10-01,https://en.sedaily.com/finance/2026/10/01/hbm-prices-to-more-than-double-next-year-as-shortage
+lpddr.csv,16,smartphone,shipments,2025,1260.3,million units,actual,IDC,2026-01-13,https://www.marketscreener.com/news/worldwide-smartphone-market-grows-2-3-in-q4-2025-driven-by-strong-performances-from-samsung-and-ap-ce7e58d8df8cf120
+lpddr.csv,19,smartphone,shipments_forecast,2026,1090,million units,forecast,IDC,2026-05-26,https://www.idc.com/resource-center/blog/worldwide-smartphone-market-to-decline-13-9-in-2026-as-memory-crisis-and-us-iran-war-constrain-growth/
+lpddr.csv,20,smartphone,shipments_yoy_forecast,2027,-1.1,% YoY,forecast,IDC,2026-05-26,https://www.idc.com/resource-center/blog/worldwide-smartphone-market-to-decline-13-9-in-2026-as-memory-crisis-and-us-iran-war-constrain-growth/
+lpddr.csv,22,smartphone,shipments_yoy_forecast,2026,-16.7,% YoY,forecast,IDC,2026-08-26,https://www.idc.com/resource-center/blog/smartphone-shipments-set-for-record-16-7-drop-in-2026-as-the-memory-crisis-hits-full-force/
+lpddr.csv,24,smartphone,shipments_forecast,2026,1080,million units,forecast,Counterpoint,2026-06-01,https://counterpointresearch.com/insights/2026-smartphone-shipments-to-post-worst-annual-decline-on-record-as-memory-crisis-and-geopolitical-shocks-converge
+lpddr.csv,25,smartphone,production_forecast,2026,1070,million units,forecast,TrendForce,2026-09-08,https://www.trendforce.com/presscenter/news/20260908-13222.html
+lpddr.csv,36,smartphone,avg_dram_per_phone,2024-12,7.4,GB,actual,Counterpoint,2026-02-26,https://counterpointresearch.com/en/insights/Global-Smartphone-Average-DRAM-Hits-Record-8.4GB-in-2025
+lpddr.csv,37,smartphone,avg_dram_per_phone,2025-12,8.4,GB,actual,Counterpoint,2026-02-26,https://counterpointresearch.com/en/insights/Global-Smartphone-Average-DRAM-Hits-Record-8.4GB-in-2025
+lpddr.csv,40,smartphone,avg_dram_per_phone,2026,8.5,GB,forecast,TrendForce,2026-05-14,https://www.trendforce.com/presscenter/news/20260514-13044.html
+lpddr.csv,41,smartphone,avg_dram_per_phone,2025,7.73,GB,derived,TrendForce (derived),2026-05-14,https://www.trendforce.com/presscenter/news/20260514-13044.html
+lpddr.csv,60,mobile,dram_bit_demand,2026,11,EB,forecast,Yole Group (via Comet Holding CMD 2025),2025-11-13,https://comet.tech/getmedia/4363db0d-e447-4ea1-bfef-dec81a68884d/Comet-CMD-2025_presentation_final.pdf?disposition=attachment
+lpddr.csv,61,mobile,dram_bit_demand,2027,12,EB,forecast,Yole Group (via Comet Holding CMD 2025),2025-11-13,https://comet.tech/getmedia/4363db0d-e447-4ea1-bfef-dec81a68884d/Comet-CMD-2025_presentation_final.pdf?disposition=attachment
+lpddr.csv,96,lpddr-pc,lpddr_share_of_pc_dram_demand,2024,32.5,% of PC DRAM demand (30-35%),forecast,TrendForce,2024-01-17,https://www.trendforce.com.tw/presscenter/news/20240117-11998.html
+lpddr.csv,107,lpddr-pc,mac_lpddr_bits_floor,2025,0.41,EB (lower bound),derived,derived,,https://www.macrumors.com/2026/01/13/mac-shipments-flat-at-the-end-of-2025/
+lpddr.csv,109,lpddr-tablet,tablet_shipments,2025,151.9,million units,actual,IDC,2026-02-24,https://www.idc.com/resource-center/blog/global-tablet-shipments-rise-1-9-in-4q25-as-seasonal-demand-offsets-cooling-replacement-cycle/
+lpddr.csv,121,lpddr-server,ai_server_lpddr5x_demand,2024,1.1,billion Gb,estimate,LS Securities,2025-03-26,https://msg.ls-sec.co.kr/eum/K_20250326_31565_230.pdf
+lpddr.csv,122,lpddr-server,ai_server_lpddr5x_demand,2025,6.0,billion Gb,forecast,LS Securities,2025-03-26,https://msg.ls-sec.co.kr/eum/K_20250326_31565_230.pdf
+lpddr.csv,123,lpddr-server,nvidia_socamm2_demand,2026,24,billion Gb,forecast,Meritz Securities,2026-05-22,https://www.hankyung.com/koreamarket/consensus/pdf/2026-05-899cf1db5212b445c689fe92f4aa08ea
+lpddr.csv,124,lpddr-server,nvidia_socamm2_demand,2027,9084,PB,forecast,Meritz Securities,2026-05-22,https://www.hankyung.com/koreamarket/consensus/pdf/2026-05-899cf1db5212b445c689fe92f4aa08ea
+lpddr.csv,125,lpddr-server,nvidia_dram_demand,2026,22,"billion (unit unclear, likely Gb) (21-23)",estimate,Edgewater Research (quoted by YK Research),2026-04-15,https://investments.chiayong.com/samsung/2026-04-15/
+lpddr.csv,126,lpddr-server,nvidia_dram_demand,2027,65,billion (unit unclear) (60-70),estimate,Edgewater Research (quoted by YK Research),2026-04-15,https://investments.chiayong.com/samsung/2026-04-15/
+lpddr.csv,127,lpddr-server,nvidia_lpdram_need_met,2027,60,% of Nvidia estimated LPDRAM needs,forecast,TrendForce,2026-06-10,https://www.trendforce.com/presscenter/news/20260610-13090.html
+lpddr.csv,132,auto,share_of_dram_consumption,2024,3,% of DRAM bit consumption (more than),forecast,TrendForce,2021-03-10,https://www.trendforce.com/news/2021/03/10/automotive-applications-projected-to-account-for-more-than-3-of-total-dram-bit-consumption-in-2024-owing-to-autonomous-vehicle-industry-growth/
+lpddr.csv,133,auto,share_of_dram_demand,2025,2,% of DRAM demand,estimate,"Omdia (via CXMT IPO prospectus, reported by XenoSpectrum)",2026-08-21,https://xenospectrum.com/en/cxmt-dram-supply-growth-2027/
+lpddr.csv,147,lpddr-supply,server_lpddr5x_demand_growth,2027,100,% YoY ('could double'),forecast,CFM (MemoryMarket),2026-10-10,https://www.memorymarket.com/a/14963
+lpddr.csv,168,lpddr-server,nvidia_socamm2_demand,2026,20,billion Gb,derived,derived,,https://www.koreajoongangdaily.com/business/tech-science/ai-semiconductor-market-shifts-focus-to-low-power-dram-module-socamm2/12614719
+lpddr.csv,171,lpddr-server,socamm_orders_samsung,2026,100,billion Gb as stated,estimate,TrendForce News (citing Korean press),2025-10-01,https://www.trendforce.com/news/2025/10/01/news-nvidias-socamm2-orders-likely-evenly-split-among-memory-makers-in-2026-1c-adoption-in-focus/
+lpddr.csv,172,lpddr-server,socamm_orders_skhynix,2026,110,billion Gb as stated,estimate,TrendForce News (citing Korean press),2025-10-01,https://www.trendforce.com/news/2025/10/01/news-nvidias-socamm2-orders-likely-evenly-split-among-memory-makers-in-2026-1c-adoption-in-focus/
+lpddr.csv,173,lpddr-server,socamm_orders_micron,2026,70,billion Gb as stated,estimate,TrendForce News (citing Korean press),2025-10-01,https://www.trendforce.com/news/2025/10/01/news-nvidias-socamm2-orders-likely-evenly-split-among-memory-makers-in-2026-1c-adoption-in-focus/
+lpddr.csv,175,lpddr-server,vera_socamm_capacity_cut,2026-06,50,% cut in SOCAMM capacity per Vera Rubin module,actual,TrendForce,2026-06-10,https://www.trendforce.com/presscenter/news/20260610-13090.html
+lpddr.csv,181,smartphone,soc_shipments_yoy,2027,-3.5,% YoY (3-4% decline),forecast,Counterpoint,2026-10-30,https://counterpointresearch.com/en/insights/smartphone-oems-shift-focus-to-profitability-as-soc-shipments-fall-21-percent-yoy
+lpddr.csv,182,smartphone,soc_shipments_yoy,2026,-20,% YoY,forecast,Counterpoint,2026-10-30,https://counterpointresearch.com/en/insights/smartphone-oems-shift-focus-to-profitability-as-soc-shipments-fall-21-percent-yoy
+lpddr.csv,184,smartphone,shipments_yoy_forecast,2027,1.9,% YoY,forecast,IDC,2026-02-26,https://www.idc.com/resource-center/blog/higher-asps-lower-unit-volumes-how-the-memory-crisis-is-reshaping-the-pc-and-smartphone-outlook/
+server-ddr5.csv,28,server,dram_bit_demand_growth_yoy,2026,35.0,%,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,29,server,dram_bit_demand_growth_yoy,2027,22.7,%,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,35,server,shipments,2023,19,million units,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,36,server,shipments,2024,19,million units,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,37,server,shipments,2025,20,million units,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,38,server,shipments,2026,22,million units,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,39,server,shipments,2027,22,million units,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,42,pc,shipments,2025,244,million units,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,45,server,avg_dram_content,2023,515,GB/unit,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,46,server,avg_dram_content,2024,597,GB/unit,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,47,server,avg_dram_content,2025,717,GB/unit,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,48,server,avg_dram_content,2026,903,GB/unit,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,49,server,avg_dram_content,2027,1065,GB/unit,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,52,pc,avg_dram_content,2025,13.4,GB/unit,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,53,pc,avg_dram_content,2026,14.7,GB/unit,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,54,pc,avg_dram_content,2027,16.2,GB/unit,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,57,server,avg_dram_content_growth_yoy,2025,20.1,%,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,58,server,avg_dram_content_growth_yoy,2026,26.0,%,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,59,server,avg_dram_content_growth_yoy,2027,18.0,%,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+server-ddr5.csv,77,server,dram_bit_demand,2026,20.74,bn GB,forecast,KGI Securities,2025-11-17,https://www.kgi.com.hk/en/-/media/files/kgishk/research-reports/tw-reports/memory-sector-17112025e.pdf
+server-ddr5.csv,93,server,avg_dram_content_growth_yoy,2025,15,%,estimate,"SemiconSam (Jukan), summary of TrendForce Korea roadshow",2025-11-07,https://www.semiconsam.com/p/trendforce-roadshow-korea-review
+server-ddr5.csv,98,server,industry_units_growth,2026,high teens,%,forecast,Micron (earnings call),2026-09-30,https://stockanalysis.com/stocks/mu/transcripts/699706-q4-2026/
+server-ddr5.csv,99,server,industry_units_growth,2027,high teens,%,forecast,Micron (earnings call),2026-09-30,https://stockanalysis.com/stocks/mu/transcripts/699706-q4-2026/
+server-ddr5.csv,112,server,shipments_growth_yoy,2026,13,%,forecast,TrendForce,2026-04-15,https://www.trendforce.com/presscenter/news/20260415-13013.html
+server-ddr5.csv,113,server,shipments_growth_yoy,2026,17,%,estimate,TrendForce,2026-07-30,https://www.trendforce.com/presscenter/news/20260730-13158.html
+server-ddr5.csv,114,server,shipments_growth_yoy,2027,>17,%,forecast,TrendForce,2026-07-30,https://www.trendforce.com/presscenter/news/20260730-13158.html
+server-ddr5.csv,135,server-ddr5,ddr5_share_of_server_dram_bits,1Q25,90,%,actual,TrendForce,2025-05-28,https://www.trendforce.com/research/download/RP250528SS
+server-ddr5.csv,141,ddr4-total,ddr4_share_of_micron_dram_output,2026,7,%,forecast,TrendForce,2026-05-26,https://www.trendforce.com/presscenter/news/20260526-13061.html
+server-ddr5.csv,218,server,order_fulfillment_rate,1Q26,66,%,estimate,Samsung Securities,2026-01-28,https://www.bondweb.co.kr/Data/20261/28/menu01/2026012820.pdf
+server-ddr5.csv,219,server,order_fulfillment_rate,4Q25,<60,%,estimate,Samsung Securities,2026-01-28,https://www.bondweb.co.kr/Data/20261/28/menu01/2026012820.pdf
+server-ddr5.csv,222,server,hbm_plus_rdimm_share_of_dram_bit_supply,2026,51,%,forecast,TrendForce,2026-08-25,https://www.trendforce.com/presscenter/news/20260825-13198.html
+server-ddr5.csv,223,server,server_dram_plus_hbm_bit_supply_growth,2027,27,%,forecast,TrendForce,2026-08-25,https://www.trendforce.com/presscenter/news/20260825-13198.html
+server-ddr5.csv,224,server-ddr5,rdimm_bit_supply_growth,2027,15-20,%,forecast,TrendForce,2026-07-09,https://www.trendforce.com/presscenter/news/20260709-13140.html
+server-ddr5.csv,249,pc,shipments_growth_yoy,2026,-11.3,%,forecast,IDC,2026-06-02,https://www.idc.com/resource-center/blog/pc-market-enters-volatile-territory-as-memory-shortage-persists-through-2027/
+server-ddr5.csv,251,pc,shipments,3Q26,62.7,million units,actual,VenSearch (citing IDC preliminary),2026-10-09,https://www.vensearch.com/insights/idc-pc-shipments-fell-20-1-in-q3-2026-as-memory-driven-price-hikes-hit-demand
+server-ddr5.csv,252,pc,notebook_shipments_growth_yoy,2026,-9.4,%,forecast,TrendForce,2026-09-04,https://www.trendforce.com/presscenter/news/20260904-13217.html
+server-ddr5.csv,255,pc,notebook_shipments_growth_yoy,2027,low-single-digit decline,%,forecast,TrendForce,2026-10-08,https://www.trendforce.com/presscenter/news/20261008-13264.html
+supply-chain.csv,129,capex,Micron new DRAM fab output timing,2027-2030,ID1 mid-2027; ID2 late 2028; NY 2030,calendar timing,forecast,Micron,2026-09-30,https://s25.q4cdn.com/621799436/files/doc_financials/2026/q4/Q4-FY26-Prepared-Remarks.pdf
+supply-chain.csv,131,capex,Tongluo Phase 1 capacity vs Micron global capacity,2H27,>10,% of Micron capacity,forecast,TrendForce,2026-01-19,https://www.trendforce.com/presscenter/news/20260119-12883.html
+supply-chain.csv,132,capex,SK hynix Yongin Phase 1 cleanroom opening,early 2027,early 2027,timing,forecast,SK hynix,2026-07-29,https://news.skhynix.com/en/q2-2026-business-results/
+supply-chain.csv,134,capex,new DRAM capacity contribution timing,2027-2028,ramp 2H27; material output 2028,timing,forecast,TrendForce,2026-07-30,https://www.trendforce.com/presscenter/news/20260730-13158.html
+supply-chain.csv,164,oem,smartphone SoC shipments,3Q26 / 2026 / 2027,-21 / -20 / -3 to -4,% YoY,forecast,Counterpoint Research,2026-10-30,https://www.counterpointresearch.com/en/insights/smartphone-oems-shift-focus-to-profitability-as-soc-shipments-fall-21-percent-yoy
+supply-chain.csv,210,outlook,DRAM sufficiency ratio,2026,-1 to -2,%,estimate,TrendForce,2026-07-30,https://www.trendforce.com/presscenter/news/20260730-13158.html
+total-dram.csv,0,total,bit shipment growth YoY,2026,mid-20s,%,forecast,Micron,2026-09-30,https://stockanalysis.com/stocks/mu/transcripts/699706-q4-2026/
+total-dram.csv,1,total,bit shipment growth YoY,2027,low 20s,%,forecast,Micron,2026-09-30,https://stockanalysis.com/stocks/mu/transcripts/699706-q4-2026/
+total-dram.csv,12,total,bit shipment growth YoY,2026,low 20s,%,forecast,Micron,2026-03-18,https://www.fool.com/earnings/call-transcripts/2026/03/18/micron-mu-q2-2026-earnings-call-transcript/
+total-dram.csv,19,total,bit output growth YoY,2025,25,%,forecast,TrendForce,2024-11-06,https://www.trendforce.com/presscenter/news/20241106-12349.html
+total-dram.csv,35,total,bit demand,2026,43,EB,forecast,Yole Group (via Comet Holding CMD 2025),2025-11-13,https://comet.tech/getmedia/4363db0d-e447-4ea1-bfef-dec81a68884d/Comet-CMD-2025_presentation_final.pdf
+total-dram.csv,36,total,bit demand,2027,51,EB,forecast,Yole Group (via Comet Holding CMD 2025),2025-11-13,https://comet.tech/getmedia/4363db0d-e447-4ea1-bfef-dec81a68884d/Comet-CMD-2025_presentation_final.pdf
+total-dram.csv,56,total,bit supply growth YoY,2023,14.1,%,forecast,TrendForce,2022-08-03,https://www.trendforce.com/presscenter/news/20220803-11328.html
+total-dram.csv,60,total,bit supply growth YoY,2022,17.9,%,forecast,TrendForce,2021-10-12,https://www.trendforce.com/news/2021/10/12/dram-prices-projected-to-enter-period-of-downswing-in-2022-as-demand-lags-behind-supply-says-trendforce/
+total-dram.csv,69,total,bit supply growth YoY,2022,18.6,%,forecast,TrendForce,2021-11-04,https://www.trendforce.com/presscenter/news/20211104-10993.html
+total-dram.csv,72,total,bits per wafer gain from node migration,1-alpha,~30,%,estimate,TrendForce,2021-11-04,https://www.trendforce.com/presscenter/news/20211104-10993.html
+total-dram.csv,123,total,achievable bit demand growth YoY,2027,mid-20s,%,forecast,SK hynix,2026-10-27,https://www.fool.com/earnings/call-transcripts/2026/10/28/sk-hynix-skhy-q3-2026-earnings-call-transcript/
+total-dram.csv,125,total,SK hynix DRAM bit shipment growth QoQ,2026Q4,mid-20s,%,forecast,SK hynix,2026-10-27,https://www.fool.com/earnings/call-transcripts/2026/10/28/sk-hynix-skhy-q3-2026-earnings-call-transcript/
+total-dram.csv,126,total,SK hynix M15X fab status,2026 end,full capacity,event,forecast,SK hynix,2026-10-27,https://www.fool.com/earnings/call-transcripts/2026/10/28/sk-hynix-skhy-q3-2026-earnings-call-transcript/
+total-dram.csv,135,total,bit demand,2023,209.5,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,136,total,bit demand,2024,247.3,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,137,total,bit demand,2025,301.2,billion Gb,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,138,total,bit demand,2026,379.8,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,139,total,bit demand,2027,462.1,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,140,mobile,bit demand (mobile DRAM),2023,78.9,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,141,mobile,bit demand (mobile DRAM),2024,92.7,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,142,mobile,bit demand (mobile DRAM),2025,107.1,billion Gb,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,143,mobile,bit demand (mobile DRAM),2026,127.4,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,144,mobile,bit demand (mobile DRAM),2027,149.4,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,145,pc,bit demand (PC DRAM),2023,24.6,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,146,pc,bit demand (PC DRAM),2024,26.1,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,147,pc,bit demand (PC DRAM),2025,28.9,billion Gb,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,148,pc,bit demand (PC DRAM),2026,30.6,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,149,pc,bit demand (PC DRAM),2027,35.9,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,150,server,bit demand (server DRAM),2023,76.9,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,151,server,bit demand (server DRAM),2024,90.9,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,152,server,bit demand (server DRAM),2025,115.2,billion Gb,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,153,server,bit demand (server DRAM),2026,155.5,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,154,server,bit demand (server DRAM),2027,190.9,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,155,graphics,bit demand (graphics DRAM = HBM + GDDR),2023,11.2,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,156,graphics,bit demand (graphics DRAM = HBM + GDDR),2024,18.5,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,157,graphics,bit demand (graphics DRAM = HBM + GDDR),2025,30.4,billion Gb,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,158,graphics,bit demand (graphics DRAM = HBM + GDDR),2026,46.1,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,159,graphics,bit demand (graphics DRAM = HBM + GDDR),2027,64.7,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,160,other,bit demand (other DRAM),2023,17.9,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,161,other,bit demand (other DRAM),2024,19.1,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,162,other,bit demand (other DRAM),2025,19.7,billion Gb,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,163,other,bit demand (other DRAM),2026,20.3,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,164,other,bit demand (other DRAM),2027,21.3,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,195,total,bit production,2023,200.2,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,196,total,bit production,2024,235.0,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,197,total,bit production,2025,293.1,billion Gb,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,198,total,bit production,2026,352.5,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,199,total,bit production,2027,415.7,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,203,total,Samsung bit production,2026,122.0,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,208,total,SK hynix bit production,2026,105.2,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,225,total,bit production growth YoY,2023,-4.4,%,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,226,total,bit production growth YoY,2024,17.3,%,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,227,total,bit production growth YoY,2025,24.7,%,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,228,total,bit production growth YoY,2026,20.3,%,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,229,total,bit production growth YoY,2027,17.9,%,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,230,total,wafer capacity (industry),2023,"1,363",kwpm,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,231,total,wafer capacity (industry),2024,"1,645",kwpm,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,232,total,wafer capacity (industry),2025,"1,904",kwpm,estimate,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,233,total,wafer capacity (industry),2026,"2,052",kwpm,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,234,total,wafer capacity (industry),2027,"2,237",kwpm,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,238,total,Samsung wafer capacity,2026,665,kwpm,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,239,total,Samsung wafer capacity,2027,735,kwpm,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,243,total,SK hynix wafer capacity,2026,586,kwpm,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,244,total,SK hynix wafer capacity,2027,646,kwpm,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,248,total,Micron wafer capacity,2026,349,kwpm,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,249,total,Micron wafer capacity,2027,369,kwpm,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,253,total,CXMT wafer capacity,2026,298,kwpm,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,254,total,CXMT wafer capacity,2027,328,kwpm,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,258,total,Nanya wafer capacity,2026,65,kwpm,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,259,total,Nanya wafer capacity,2027,70,kwpm,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,271,total,bit demand growth YoY,2020,15.7,%,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,273,total,bit demand growth YoY,2021,20.8,%,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,275,total,bit demand growth YoY,2022,11.9,%,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,290,total,SK hynix M15X capacity addition,2026,40,kwpm,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,293,total,Samsung wafer capacity (end of year),2026 end,700,kwpm,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,294,total,SK hynix wafer capacity (end of year),2026 end,605,kwpm,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,300,total,bit growth YoY,2012,28.6,%,actual,Mirae Asset Daewoo Research (citing DRAMeXchange),2020-05-13,https://securities.miraeasset.com/bbs/download/2074906.pdf?attachmentId=2074906
+total-dram.csv,301,total,bit growth YoY,2013,26.6,%,actual,Mirae Asset Daewoo Research (citing DRAMeXchange),2020-05-13,https://securities.miraeasset.com/bbs/download/2074906.pdf?attachmentId=2074906
+total-dram.csv,302,total,bit growth YoY,2014,34.1,%,actual,Mirae Asset Daewoo Research (citing DRAMeXchange),2020-05-13,https://securities.miraeasset.com/bbs/download/2074906.pdf?attachmentId=2074906
+total-dram.csv,303,total,bit growth YoY,2015,22.8,%,actual,Mirae Asset Daewoo Research (citing DRAMeXchange),2020-05-13,https://securities.miraeasset.com/bbs/download/2074906.pdf?attachmentId=2074906
+total-dram.csv,304,total,bit growth YoY,2016,23.7,%,actual,Mirae Asset Daewoo Research (citing DRAMeXchange),2020-05-13,https://securities.miraeasset.com/bbs/download/2074906.pdf?attachmentId=2074906
+total-dram.csv,305,total,bit growth YoY,2017,19.9,%,actual,Mirae Asset Daewoo Research (citing DRAMeXchange),2020-05-13,https://securities.miraeasset.com/bbs/download/2074906.pdf?attachmentId=2074906
+total-dram.csv,306,total,bit growth YoY,2018,21.0,%,actual,Mirae Asset Daewoo Research (citing DRAMeXchange),2020-05-13,https://securities.miraeasset.com/bbs/download/2074906.pdf?attachmentId=2074906
+total-dram.csv,307,total,bit growth YoY,2019,19.0,%,actual,Mirae Asset Daewoo Research (citing DRAMeXchange),2020-05-13,https://securities.miraeasset.com/bbs/download/2074906.pdf?attachmentId=2074906
+total-dram.csv,309,total,bit supply growth YoY,2021,20.7,%,forecast,Mirae Asset Daewoo Research (citing DRAMeXchange),2020-05-13,https://securities.miraeasset.com/bbs/download/2074906.pdf?attachmentId=2074906
+total-dram.csv,321,total,bit supply growth YoY,2010,48%,%,actual,KDB Daewoo Securities Research,2012-11-13,https://securities.miraeasset.com/bbs/download/166426.pdf?attachmentId=166426
+total-dram.csv,322,total,bit supply growth YoY,2011,39%,%,actual,KDB Daewoo Securities Research,2012-11-13,https://securities.miraeasset.com/bbs/download/166426.pdf?attachmentId=166426
+total-dram.csv,324,total,bit supply growth YoY,2013,28%,%,forecast,KDB Daewoo Securities Research,2012-11-13,https://securities.miraeasset.com/bbs/download/166426.pdf?attachmentId=166426
+total-dram.csv,381,total,bit supply growth YoY,2006,52,%,actual,"Micron Technology (avg of Gartner, IDC, iSuppli)",2011-02-21,https://users.cs.utah.edu/~rajeev/pubs/Micron_2011_Winter_Analyst_Conference_FINAL.pdf
+total-dram.csv,382,total,bit supply growth YoY,2007,87,%,actual,"Micron Technology (avg of Gartner, IDC, iSuppli)",2011-02-21,https://users.cs.utah.edu/~rajeev/pubs/Micron_2011_Winter_Analyst_Conference_FINAL.pdf
+total-dram.csv,383,total,bit supply growth YoY,2008,63,%,actual,"Micron Technology (avg of Gartner, IDC, iSuppli)",2011-02-21,https://users.cs.utah.edu/~rajeev/pubs/Micron_2011_Winter_Analyst_Conference_FINAL.pdf
+total-dram.csv,384,total,bit supply growth YoY,2009,22,%,actual,"Micron Technology (avg of Gartner, IDC, iSuppli)",2011-02-21,https://users.cs.utah.edu/~rajeev/pubs/Micron_2011_Winter_Analyst_Conference_FINAL.pdf
+total-dram.csv,387,total,bit supply growth YoY,2012,48,%,forecast,"Micron Technology (avg of Gartner, IDC, iSuppli)",2011-02-21,https://users.cs.utah.edu/~rajeev/pubs/Micron_2011_Winter_Analyst_Conference_FINAL.pdf
+total-dram.csv,390,total,bit supply growth YoY,2011,50,%,forecast,TrendForce (DRAMeXchange),2010-11-25,https://www.trendforce.com/presscenter/news/20101125-7196.html
+total-dram.csv,395,total,bit supply,2019,125642,million Gb,actual,Mirae Asset Daewoo Research,2020-06-05,https://securities.miraeasset.com/bbs/download/2075339.pdf?attachmentId=2075339
+total-dram.csv,404,total,bit supply growth YoY,2021,20.6,%,forecast,Mirae Asset Daewoo Research,2020-06-05,https://securities.miraeasset.com/bbs/download/2075339.pdf?attachmentId=2075339
+total-dram.csv,461,total,bit shipment growth YoY,2026,~20,%,forecast,Micron,2025-12-17,https://www.fool.com/earnings/call-transcripts/2025/12/17/micron-mu-q1-2026-earnings-call-transcript/
+total-dram.csv,467,total,bit supply growth YoY,2026,~20,%,forecast,Omdia,2025-12-05,https://omdia.tech.informa.com/-/media/tech/omdia/assetfamily/2025/12/04/2026-trends-to-watch-semiconductors/2026-trends-to-watch-semiconductors-pdf.pdf
+total-dram.csv,469,total,bit supply growth YoY,2027,24,%,forecast,TrendForce,2026-07-28,https://www.trendforce.com/research/download/RP260728GY
+total-dram.csv,470,total,bit supply growth YoY,2026,~26,%,forecast,Counterpoint Research (via ChosunBiz),2026-03-12,https://biz.chosun.com/en/en-it/2026/03/12/O3YVAPAO4ZB4NL7QOKX7SE476I/
+total-dram.csv,471,hbm,HBM share of DRAM wafer input (top 3),2025 end,18,%,estimate,TrendForce,2026-06-02,https://www.trendforce.com/presscenter/news/20260602-13074.html
+total-dram.csv,472,hbm,HBM share of DRAM wafer input (top 3),2026 end,22,%,forecast,TrendForce,2026-06-02,https://www.trendforce.com/presscenter/news/20260602-13074.html
+total-dram.csv,473,hbm,HBM share of DRAM wafer input (top 3),2027 end,30,%,forecast,TrendForce,2026-06-02,https://www.trendforce.com/presscenter/news/20260602-13074.html
+total-dram.csv,474,hbm,HBM share of DRAM bit supply (top 3),2025,8,%,estimate,TrendForce,2026-06-02,https://www.trendforce.com/presscenter/news/20260602-13074.html
+total-dram.csv,475,hbm,HBM share of DRAM bit supply (top 3),2026,9,%,forecast,TrendForce,2026-06-02,https://www.trendforce.com/presscenter/news/20260602-13074.html
+total-dram.csv,476,hbm,HBM share of DRAM bit supply (top 3),2027,13,%,forecast,TrendForce,2026-06-02,https://www.trendforce.com/presscenter/news/20260602-13074.html
+total-dram.csv,477,total,Samsung DRAM bit shipment growth QoQ,2026Q3,low to mid single digit,%,actual,Samsung Electronics,2026-10-29,https://stockanalysis.com/quote/krx/005930/transcripts/718820-q3-2026/
+total-dram.csv,478,total,Samsung DRAM bit shipment growth QoQ,2026Q4,mid to high teens,%,forecast,Samsung Electronics,2026-10-29,https://stockanalysis.com/quote/krx/005930/transcripts/718820-q3-2026/
+total-dram.csv,485,total,Samsung DRAM bit shipment growth QoQ,2026Q2,low teens,%,actual,"Samsung Electronics (via earningsapi.io transcript, search summary)",2026-07-30,https://earningsapi.io/transcripts/samsung-electronics-co-ltd_a005930_earnings_call_transcript_2026-07-30
+total-dram.csv,487,total,SK hynix DRAM bit shipment growth QoQ,2026Q2,high single digit,%,actual,SK hynix,2026-07-29,https://stockanalysis.com/quote/krx/000660/transcripts/653208-q2-2026/
+total-dram.csv,488,total,SK hynix DRAM bit shipment growth QoQ,2026Q3,~10,%,actual,SK hynix,2026-10-27,https://www.fool.com/earnings/call-transcripts/2026/10/28/sk-hynix-skhy-q3-2026-earnings-call-transcript/
+total-dram.csv,489,total,bit demand growth YoY (SK hynix view),2026,mid-20s,%,forecast,SK hynix,2026-07-29,https://stockanalysis.com/quote/krx/000660/transcripts/653208-q2-2026/
+total-dram.csv,502,total,CXMT wafer capacity,2026 (current),320,kwpm,estimate,TrendForce News (citing Commercial Times),2026-09-24,https://www.trendforce.com/news/2026/09/24/news-cxmt-ymtc-ramp-memory-capacity-but-chinas-ai-cloud-boom-could-soak-up-new-supply-through-2027/
+total-dram.csv,503,total,CXMT wafer capacity,2027,420,kwpm,forecast,TrendForce News (citing Commercial Times),2026-09-24,https://www.trendforce.com/news/2026/09/24/news-cxmt-ymtc-ramp-memory-capacity-but-chinas-ai-cloud-boom-could-soak-up-new-supply-through-2027/
+total-dram.csv,508,total,Samsung DRAM bit shipments,2025Q1,20.5,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,509,total,Samsung DRAM bit shipments,2025Q2,22.8,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,510,total,Samsung DRAM bit shipments,2025Q3,26.2,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,511,total,Samsung DRAM bit shipments,2025Q4,29.2,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,524,total,SK hynix DRAM bit shipments,2025Q1,19.5,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,525,total,SK hynix DRAM bit shipments,2025Q2,24.2,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,526,total,SK hynix DRAM bit shipments,2025Q3,26.1,billion Gb,actual,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,527,total,SK hynix DRAM bit shipments,2025Q4,27.8,billion Gb,forecast,Mirae Asset Securities,2025-12-15,https://securities.miraeasset.com/bbs/download/2141014.pdf?attachmentId=2141014
+total-dram.csv,553,total,Samsung Pyeongtaek status,2026-10,P1-P4 operating; P5 under construction,text,actual,EconoTimes,2026-10-20,https://econotimes.com/Samsung-Builds-P5-Chip-Plant-Amid-Forecast-of-Tight-Memory-Supply-1758256
+total-dram.csv,572,total,bit shipment growth YoY,2026,low-to-mid 20s,%,forecast,Micron,2026-06-24,https://investors.micron.com/static-files/631b1a32-5537-46ae-8f40-82e42fc79dfe
